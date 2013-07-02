@@ -14,6 +14,11 @@ public class CxTeamMentor
     private static readonly long TeamMentorIdentifier = 1000000;
     private ILog log = LogManager.GetLogger(typeof (CxTeamMentor));
 
+    public CxTeamMentor()
+    {
+        XmlConfigurator.Configure();
+    }
+
     public void TMFilterFor_CxQueryCollectionResponse(CxQueryCollectionResponse cxQueryCollectionResponse)
     {
         log.Debug("Inside TMFilterFor_CxQueryCollectionResponse method...");
@@ -48,13 +53,12 @@ public class CxTeamMentor
 
     public void TMFilterFor_CxWSResponseQueryDescription(int cweId,CxWSResponseQueryDescription cxWsResponseQueryDescription)
     {
-        XmlConfigurator.Configure();
-
+        
         log.Debug("Inside TMFilterFor_CxWSResponseQueryDescription method...");
 
         log.Debug(String.Format("Getting QueryDescription for CWE {0} ",cweId));
 
-        if (cxWsResponseQueryDescription.IsSuccesfull && cweId > TeamMentorIdentifier)
+        if (cweId > TeamMentorIdentifier)
         {
             cxWsResponseQueryDescription.QueryDescription =
                 !CxTeamMentor_Mappings.Tm_QueryId_Mappings.ContainsKey(cweId)

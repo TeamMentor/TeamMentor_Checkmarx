@@ -1,9 +1,12 @@
 //O2File:CxPortalWebService.cs
 using System.Web.Services;
 using System;
+using log4net;
+
 [WebService(Namespace = "http://Checkmarx.com/")]
 public class CxPortalWebService_Wrapper
 {
+    private ILog log = LogManager.GetLogger(typeof(CxPortalWebService_Wrapper));
 	public CxPortalWebService _web_Service { get; set; }
 	public CxPortalWebService_Wrapper()
 	{
@@ -13,6 +16,7 @@ public class CxPortalWebService_Wrapper
 	public CxQueryCollectionResponse GetQueryCollection(string sessionId)
 	{
 		CxQueryCollectionResponse result = _web_Service.GetQueryCollection(sessionId);
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetQueryCollection");
        // new CxTeamMentor().TMFilterFor_CxQueryCollectionResponse(result);
 		return result;
 	}
@@ -645,8 +649,9 @@ public class CxPortalWebService_Wrapper
 	[WebMethod()]
 	public CxWSResponseQueryDescription GetQueryDescription(string sessionId, int cweId)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetQueryDescription");
 		CxWSResponseQueryDescription result = _web_Service.GetQueryDescription(sessionId, cweId);
-	    result.IsSuccesfull = true;
+	    
         new CxTeamMentor().TMFilterFor_CxWSResponseQueryDescription(cweId,result);
 		return result;
 	}
