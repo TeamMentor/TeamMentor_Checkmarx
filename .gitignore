@@ -1,0 +1,17 @@
+#TM specific
+o2.config
+TmUsers.xml
+webEditorSecretData.config
+# Visual Studio files # 
+*.pdb
+release
+Web Applications/TeamMentor.CoreLib/bin/Debug/*.xml
+obj
+*.suo
+*.nupkg
+Web Applications/TM_Website/bin/*.xml
+
+Web Applications/TeamMentor.CoreLib/bin/Debug/TeamMentor.CoreLib.dll
+
+
+/Web Applications/TM_Website/App_Data
