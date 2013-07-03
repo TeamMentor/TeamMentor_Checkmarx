@@ -53,30 +53,35 @@ public class CxPortalWebService_Wrapper
 	[WebMethod()]
 	public CxWSResponceQuerisForScan GetQueriesForScan(string sessionID, long scanId)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetQueriesForScan");
 		CxWSResponceQuerisForScan result = _web_Service.GetQueriesForScan(sessionID, scanId);
 		return result;
 	}
 	[WebMethod()]
 	public CxWSResponceQuerisForScanAndId GetQueriesForScanByRunId(string sessionID, string runId)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetQueriesForScanByRunId");
 		CxWSResponceQuerisForScanAndId result = _web_Service.GetQueriesForScanByRunId(sessionID, runId);
 		return result;
 	}
 	[WebMethod()]
 	public CxWSResponceScanResults GetResultsForQuery(string sessionID, long scanId, long queryId)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetResultsForQuery");
 		CxWSResponceScanResults result = _web_Service.GetResultsForQuery(sessionID, scanId, queryId);
 		return result;
 	}
 	[WebMethod()]
 	public CxWSResponceScanResults GetResultsForQueryQroup(string sessionID, long scanId, long queryGroupId)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetResultsForQueryQroup");
 		CxWSResponceScanResults result = _web_Service.GetResultsForQueryQroup(sessionID, scanId, queryGroupId);
 		return result;
 	}
 	[WebMethod()]
 	public CxWSResponceScanResults GetResultsForScan(string sessionID, long scanId)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetResultsForScan");
 		CxWSResponceScanResults result = _web_Service.GetResultsForScan(sessionID, scanId);
 		return result;
 	}
@@ -101,6 +106,7 @@ public class CxPortalWebService_Wrapper
 	[WebMethod()]
 	public CxWSResponceScanResults GetResultsBySeverity(string sessionId, long scanId, int Severity)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetResultsBySeverity");
 		CxWSResponceScanResults result = _web_Service.GetResultsBySeverity(sessionId, scanId, Severity);
 		return result;
 	}
