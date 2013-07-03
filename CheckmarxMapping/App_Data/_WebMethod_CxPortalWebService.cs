@@ -23,6 +23,7 @@ public class CxPortalWebService_Wrapper
 	[WebMethod()]
 	public CxWSResponsePresetDetails GetPresetDetails(string sessionId, long id)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetPresetDetails");
 		CxWSResponsePresetDetails result = _web_Service.GetPresetDetails(sessionId, id);
 		return result;
 	}
@@ -88,18 +89,21 @@ public class CxPortalWebService_Wrapper
 	[WebMethod()]
 	public CxWSResponceResultPath GetResultPath(string sessionId, long scanId, long pathId)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetResultPath");
 		CxWSResponceResultPath result = _web_Service.GetResultPath(sessionId, scanId, pathId);
 		return result;
 	}
 	[WebMethod()]
 	public CxWSResponceFileNames GetFileNamesForPath(string sessionId, long scanId, long pathId)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetFileNamesForPath");
 		CxWSResponceFileNames result = _web_Service.GetFileNamesForPath(sessionId, scanId, pathId);
 		return result;
 	}
 	[WebMethod()]
 	public CxWSResponseResultPaths GetResultPathsForQuery(string sessionId, long scanId, long queryId)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetResultPathsForQuery");
 		CxWSResponseResultPaths result = _web_Service.GetResultPathsForQuery(sessionId, scanId, queryId);
 		return result;
 	}
@@ -113,6 +117,7 @@ public class CxPortalWebService_Wrapper
 	[WebMethod()]
 	public CxWSBasicRepsonse SavePredefinedCommands(string sessionID, CxPredefinedCommand[] predefinedCommands)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetResultsBySeverity");
 		CxWSBasicRepsonse result = _web_Service.SavePredefinedCommands(sessionID, predefinedCommands);
 		return result;
 	}
@@ -125,6 +130,7 @@ public class CxPortalWebService_Wrapper
 	[WebMethod()]
 	public CxWSResponseNameList GetExecutableList(string sessionId)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetExecutableList");
 		CxWSResponseNameList result = _web_Service.GetExecutableList(sessionId);
 		return result;
 	}
@@ -137,6 +143,7 @@ public class CxPortalWebService_Wrapper
 	[WebMethod()]
 	public CxWSResponseUserData GetProjectAssignUsers(string sessionID, long projectId)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetProjectAssignUsers");
 		CxWSResponseUserData result = _web_Service.GetProjectAssignUsers(sessionID, projectId);
 		return result;
 	}
@@ -149,12 +156,14 @@ public class CxPortalWebService_Wrapper
 	[WebMethod()]
 	public CxWSResponsePivotTable GetPivotData(string SessionID, PivotViewClientType viewType)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetPivotData");
 		CxWSResponsePivotTable result = _web_Service.GetPivotData(SessionID, viewType);
 		return result;
 	}
 	[WebMethod()]
 	public CxWSResponsePivotLayouts GetPivotLayouts(string SessionID)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetPivotLayouts");
 		CxWSResponsePivotLayouts result = _web_Service.GetPivotLayouts(SessionID);
 		return result;
 	}
@@ -221,12 +230,14 @@ public class CxPortalWebService_Wrapper
 	[WebMethod()]
 	public CxWSResponseRunID Scan(string sessionId, CliScanArgs args)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside Scan");
 		CxWSResponseRunID result = _web_Service.Scan(sessionId, args);
 		return result;
 	}
 	[WebMethod()]
 	public CxWSResponseProjectsScansList GetProjectsWithScans(string sessionId)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetProjectsWithScans");
 		CxWSResponseProjectsScansList result = _web_Service.GetProjectsWithScans(sessionId);
 		return result;
 	}
@@ -245,6 +256,7 @@ public class CxPortalWebService_Wrapper
 	[WebMethod()]
 	public CxQueryCollectionResponse GetQueryCollectionForLanguage(string sessionId, int projectType, long projectId)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetQueryCollectionForLanguage");
 		CxQueryCollectionResponse result = _web_Service.GetQueryCollectionForLanguage(sessionId, projectType, projectId);
         new CxTeamMentor().TMFilterFor_CxQueryCollectionResponse(result);
 		return result;
@@ -264,6 +276,7 @@ public class CxPortalWebService_Wrapper
 	[WebMethod()]
 	public CxWSResponseResultCollection GetResults(string sessionId, long scanId)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetResults");
 		CxWSResponseResultCollection result = _web_Service.GetResults(sessionId, scanId);
         new CxTeamMentor().TMFilterFor_CxWSResponseResultCollection(result);
 		return result;
@@ -271,6 +284,7 @@ public class CxPortalWebService_Wrapper
 	[WebMethod()]
 	public CXWSResponseResultSummary GetResultSummary(string sessionId, long scanId)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetResultSummary");
 		CXWSResponseResultSummary result = _web_Service.GetResultSummary(sessionId, scanId);
 		return result;
 	}
@@ -307,6 +321,7 @@ public class CxPortalWebService_Wrapper
 	[WebMethod()]
 	public CxWSResponseConfigSetList GetConfigurationSetList(string SessionID)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetConfigurationSetList");
 		CxWSResponseConfigSetList result = _web_Service.GetConfigurationSetList(SessionID);
 		return result;
 	}
@@ -331,6 +346,7 @@ public class CxPortalWebService_Wrapper
 	[WebMethod()]
 	public CxWSResponseSourceActionList GetSourceControlActionList(string SessionID, string teamId)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetSourceControlActionList");
 		CxWSResponseSourceActionList result = _web_Service.GetSourceControlActionList(SessionID, teamId);
 		return result;
 	}
@@ -367,6 +383,7 @@ public class CxPortalWebService_Wrapper
 	[WebMethod()]
 	public CxWSResponseScanStatusArray GetScansStatuses(string sessionID)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetScansStatuses");
 		CxWSResponseScanStatusArray result = _web_Service.GetScansStatuses(sessionID);
 		return result;
 	}
@@ -409,6 +426,7 @@ public class CxPortalWebService_Wrapper
 	[WebMethod()]
 	public CxWSResponseProjectsDisplayData GetProjectsDisplayData(string sessionID)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetProjectsDisplayData");
 		CxWSResponseProjectsDisplayData result = _web_Service.GetProjectsDisplayData(sessionID);
 		return result;
 	}
@@ -499,6 +517,7 @@ public class CxPortalWebService_Wrapper
 	[WebMethod()]
 	public CxWSResponseScansDisplayData GetScansDisplayData(string sessionID, long projectID)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetScansDisplayData");
 		CxWSResponseScansDisplayData result = _web_Service.GetScansDisplayData(sessionID, projectID);
 		return result;
 	}
@@ -664,6 +683,7 @@ public class CxPortalWebService_Wrapper
 	[WebMethod()]
 	public CxWSResponseSourceContent GetSourceByScanID(string sessionID, long scanID, string fileToRetreive)
 	{
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetQueryDescription");
 		CxWSResponseSourceContent result = _web_Service.GetSourceByScanID(sessionID, scanID, fileToRetreive);
 		return result;
 	}
