@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using  log4net;
 using log4net.Config;
+using O2.DotNetWrappers.ExtensionMethods;
 
 /// <summary>
 ///     Summary description for CxTeamMentor
@@ -66,5 +67,11 @@ public class CxTeamMentor
                     : String.Format(CxTeamMentor_Mappings.HtmlRedirectTemplate, CxTeamMentor_Mappings.Tm_QueryId_Mappings[cweId]);
         }
         log.Debug("HTML reponse " + cxWsResponseQueryDescription.QueryDescription);
+    }
+
+    public void TMFilterFor_CxWSResponseScanResults(CxWSResponseScanResults result)
+    {
+        //var cxXmlResults = new CxXMLResults();
+        var cxXmlResults = result.ScanResults.ascii().deserialize<CxXMLResults>(false);
     }
 }

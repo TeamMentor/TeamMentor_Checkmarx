@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Code\CxXMLResults.cs" />
     <Compile Include="App_Data\CxPortalWebService.cs" />
     <Compile Include="App_Data\CxTeamMentor.cs" />
     <Compile Include="App_Data\CxTeamMentor_Mappings.cs" />
@@ -81,7 +82,7 @@
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>1122</DevelopmentServerPort>
-          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <DevelopmentServerVPath>/CxWebInterface</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>

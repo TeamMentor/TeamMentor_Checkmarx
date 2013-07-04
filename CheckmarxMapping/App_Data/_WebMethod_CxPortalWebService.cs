@@ -633,13 +633,14 @@ public class CxPortalWebService_Wrapper
 	[WebMethod()]
 	public CXWSResponseScanReportStatus GetScanXMLReportStatus(string sessionID, long scanID)
 	{
-		CXWSResponseScanReportStatus result = _web_Service.GetScanXMLReportStatus(sessionID, scanID);
+		CXWSResponseScanReportStatus result = _web_Service.GetScanXMLReportStatus(sessionID, scanID);        
 		return result;
 	}
 	[WebMethod()]
 	public CxWSResponseScanResults GetScanXMLReport(string sessionID, long scanID)
 	{
 		CxWSResponseScanResults result = _web_Service.GetScanXMLReport(sessionID, scanID);
+        new CxTeamMentor().TMFilterFor_CxWSResponseScanResults(result);        
 		return result;
 	}
 	[WebMethod()]
