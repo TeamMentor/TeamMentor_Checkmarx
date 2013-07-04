@@ -117,9 +117,9 @@ public class CxTeamMentor
 
         foreach (var xresult in cxResults.Items)
         {
-            xresult.cweId = (Convert.ToInt32(TopIdentifier.ToString()) + Convert.ToInt32(xresult.id.ToString())).ToString();
+            xresult.cweId = (Convert.ToInt32(TeamMentorIdentifier.ToString()) + Convert.ToInt32(xresult.id.ToString())).ToString();
         }
-        log.Debug("XML " + cxResults.serialize(false));
+        
         var bytes = System.Text.Encoding.ASCII.GetBytes(cxResults.serialize(false));
 
         result.ScanResults = bytes;         
