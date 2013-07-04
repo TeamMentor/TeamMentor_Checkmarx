@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Text;
 using System.Xml;
 using System.Xml.Serialization;
 using  log4net;
@@ -113,18 +114,10 @@ public class CxTeamMentor
             xresult.cweId = (TopIdentifier + xresult.id);
         }
 
-        result.ScanResults = ObjectToByteArray(cxResults);
+        var bytes = System.Text.Encoding.ASCII.GetBytes(cxResults.serialize(false));
+
+        result.ScanResults = bytes;         
 
     }
-    private byte[] ObjectToByteArray(Object obj)
-    {
-        if (obj == null)
-            return null;
-        var bf = new BinaryFormatter();
-        using (var ms = new MemoryStream())
-        {
-            bf.Serialize(ms, obj);
-            return ms.ToArray();
-        }
-    }
+   
 }
