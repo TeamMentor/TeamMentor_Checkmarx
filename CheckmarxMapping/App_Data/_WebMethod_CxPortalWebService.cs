@@ -678,7 +678,8 @@ public class CxPortalWebService_Wrapper
 	{
         log.Debug("[CxPortalWebService_Wrapper]- Inside GetQueryDescription");
 		CxWSResponseQueryDescription result = _web_Service.GetQueryDescription(sessionId, cweId);
-	    
+	    result.IsSuccesfull = true;
+	    result.ErrorMessage = string.Empty;
         new CxTeamMentor().TMFilterFor_CxWSResponseQueryDescription(cweId,result);
 		return result;
 	}
