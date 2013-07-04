@@ -89,10 +89,15 @@ public class CxTeamMentor
                 {
                     var url = description.Substring(54, 76);
                     log.Debug("URL is "+ url);
-                    var client = new WebClient();
-                    var body = client.DownloadString(url);
-                    cxWsResponseQueryDescription.QueryDescription = body;
-                    client.Dispose();
+                    WebRequest req = HttpWebRequest.Create(url);
+                    req.Method = "GET";
+
+                    string source;
+                    using (StreamReader reader = new StreamReader(req.GetResponse().GetResponseStream()))
+                    {
+                        source = reader.ReadToEnd();
+                    }
+                    cxWsResponseQueryDescription.QueryDescription = source;
                 }
             }
         }
