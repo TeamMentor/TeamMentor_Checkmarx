@@ -428,6 +428,7 @@ public class CxPortalWebService_Wrapper
 	{
         log.Debug("[CxPortalWebService_Wrapper]- Inside GetProjectsDisplayData");
 		CxWSResponseProjectsDisplayData result = _web_Service.GetProjectsDisplayData(sessionID);
+        
 		return result;
 	}
 	[WebMethod()]
@@ -683,7 +684,7 @@ public class CxPortalWebService_Wrapper
 	[WebMethod()]
 	public CxWSResponseSourceContent GetSourceByScanID(string sessionID, long scanID, string fileToRetreive)
 	{
-        log.Debug("[CxPortalWebService_Wrapper]- Inside GetQueryDescription");
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetSourceByScanID");
 		CxWSResponseSourceContent result = _web_Service.GetSourceByScanID(sessionID, scanID, fileToRetreive);
 		return result;
 	}
