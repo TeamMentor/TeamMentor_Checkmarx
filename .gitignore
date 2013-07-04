@@ -16,3 +16,10 @@ Web Applications/TeamMentor.CoreLib/bin/Debug/TeamMentor.CoreLib.dll
 
 /Web Applications/TM_Website/App_Data
 *.ncrunchsolution
+
+*.user
+
+*.ncrunchproject
+/CxWebInterface.Test/bin
+/_NCrunch_CheckmarxMapping
+/CheckmarxMapping/Logs

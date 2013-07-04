@@ -65,6 +65,8 @@ public class CxTeamMentor
                 !CxTeamMentor_Mappings.Tm_QueryId_Mappings.ContainsKey(cweId)
                     ? String.Format("The TeamMentor article with Id {0} could not be found",cweId)
                     : String.Format(CxTeamMentor_Mappings.HtmlRedirectTemplate, CxTeamMentor_Mappings.Tm_QueryId_Mappings[cweId]);
+            cxWsResponseQueryDescription.IsSuccesfull = true;
+            cxWsResponseQueryDescription.ErrorMessage="";
         }
         log.Debug("HTML reponse " + cxWsResponseQueryDescription.QueryDescription);
     }

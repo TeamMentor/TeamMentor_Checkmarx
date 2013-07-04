@@ -2,6 +2,9 @@
 using System.Linq;
 using CheckMarxMapping.Test;
 using NUnit.Framework;
+using O2.DotNetWrappers.Network;
+using O2.Kernel.CodeUtils;
+using O2.DotNetWrappers.ExtensionMethods;
 
 namespace CheckMarxMapping.Test
 {
@@ -10,8 +13,14 @@ namespace CheckMarxMapping.Test
     {
         private static string SessionId;
         private static readonly string MappingNotFoundMessage = "The TeamMentor article with Id {0} could not be found";
-
         private CxPortalWebService_Wrapper proxy;
+
+        public ProxyTest()
+        {
+            if (new O2Kernel_Web().online().isFalse())
+                Assert.Ignore("Currenyly offline");
+        }
+        
         [SetUp]
         [Description("Performs the signup at CheckMarx")]
         public void SetUp()

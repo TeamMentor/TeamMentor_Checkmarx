@@ -6,10 +6,14 @@ using log4net;
 [WebService(Namespace = "http://Checkmarx.com/")]
 public class CxPortalWebService_Wrapper
 {
-    private ILog log = LogManager.GetLogger(typeof(CxPortalWebService_Wrapper));
-	public CxPortalWebService _web_Service { get; set; }
+    public bool               OfflineMode   { get; set;  }
+    public ILog               log = LogManager.GetLogger(typeof(CxPortalWebService_Wrapper));	
+    public CxPortalWebService _web_Service  { get; set; }
+    
+
 	public CxPortalWebService_Wrapper()
 	{
+        OfflineMode = false;
 		_web_Service = new CxPortalWebService();
 	}
 	[WebMethod()]
@@ -297,6 +301,11 @@ public class CxPortalWebService_Wrapper
 	[WebMethod()]
 	public CxWSResponseLoginData Login(Credentials applicationCredentials)
 	{
+        if(OfflineMode)
+        {
+            var offlineResult = CxOfflineMode.Login(applicationCredentials);
+            return offlineResult;
+        }
 		CxWSResponseLoginData result = _web_Service.Login(applicationCredentials);
 		return result;
 	}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CxWSResponseLoginData>
+  <IsSuccesfull                     xmlns="http://Checkmarx.com/">true</IsSuccesfull>
+  <SessionId                        xmlns="http://Checkmarx.com/">996350851454205761175a5f0a3b-9113-41d9-8955-125717abf5ddjRXOHCYx9YGDROW1jVyvih-uugnMOWgJRgor</SessionId>
+  <FamilyName                       xmlns="http://Checkmarx.com/">admin</FamilyName>
+  <FirstName                        xmlns="http://Checkmarx.com/">admin</FirstName>
+  <IsAllowedToCreateProject         xmlns="http://Checkmarx.com/">true</IsAllowedToCreateProject>
+  <IsAllowedToChangeProject         xmlns="http://Checkmarx.com/">true</IsAllowedToChangeProject>
+  <IsAllowedToManageUsers           xmlns="http://Checkmarx.com/">true</IsAllowedToManageUsers>
+  <IsAllowedToViewCompanies         xmlns="http://Checkmarx.com/">true</IsAllowedToViewCompanies>
+  <IsAllowedToManageCompanies       xmlns="http://Checkmarx.com/">true</IsAllowedToManageCompanies>
+  <IsAllowedToManageServer          xmlns="http://Checkmarx.com/">true</IsAllowedToManageServer>
+  <IsAllowedToViewInstallationData  xmlns="http://Checkmarx.com/">true</IsAllowedToViewInstallationData>
+  <IsAllowedToViewSp                xmlns="http://Checkmarx.com/">true</IsAllowedToViewSp>
+  <IsAllowedToManageSp              xmlns="http://Checkmarx.com/">true</IsAllowedToManageSp>
+  <IsScanner                        xmlns="http://Checkmarx.com/">true</IsScanner>
+  <IsAuditor                        xmlns="http://Checkmarx.com/">true</IsAuditor>
+  <IsAllowedToManagePresets         xmlns="http://Checkmarx.com/">true</IsAllowedToManagePresets>
+</CxWSResponseLoginData>

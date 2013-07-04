@@ -34,16 +34,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FluentSharp.CoreLib">
+      <HintPath>..\packages\FluentSharp\FluentSharp.CoreLib.dll</HintPath>
+    </Reference>
     <Reference Include="log4net">
       <HintPath>..\packages\log4net.2.0.0\lib\net40-full\log4net.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Code\CxXMLResults.cs" />
+    <Compile Include="App_Data\CxOfflineMode.cs" />
+    <Compile Include="App_Data\CxXMLResults.cs" />
     <Compile Include="App_Data\CxPortalWebService.cs" />
     <Compile Include="App_Data\CxTeamMentor.cs" />
     <Compile Include="App_Data\CxTeamMentor_Mappings.cs" />
@@ -51,6 +56,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\OfflineData\Login.xml" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -71,6 +77,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Code\" />
     <Folder Include="Logs\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
