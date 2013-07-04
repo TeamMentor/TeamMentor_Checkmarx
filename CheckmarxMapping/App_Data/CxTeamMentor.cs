@@ -19,7 +19,7 @@ public class CxTeamMentor
 
 {
     private static readonly long TeamMentorIdentifier = 1000000;
-    private static readonly long TopIdentifier = 2000000;
+    private static readonly long TopIdentifier =        2000000;
 
     private ILog log = LogManager.GetLogger(typeof (CxTeamMentor));
 
@@ -109,9 +109,10 @@ public class CxTeamMentor
             cxResults = (CxXMLResults) serializer.Deserialize(stream);
         }
 
+
         foreach (var xresult in cxResults.Items)
         {
-            xresult.cweId = (TopIdentifier + xresult.id);
+            xresult.cweId = (Convert.ToInt32(TopIdentifier.ToString()) + Convert.ToInt32(xresult.id.ToString())).ToString();
         }
         log.Debug("XML " + cxResults.serialize(false));
         var bytes = System.Text.Encoding.ASCII.GetBytes(cxResults.serialize(false));
