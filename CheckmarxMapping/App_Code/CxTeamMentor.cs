@@ -68,39 +68,14 @@ public class CxTeamMentor
         log.Debug(String.Format("Getting QueryDescription for CWE {0} ",cweId));
 
 
-        if (cweId > TeamMentorIdentifier && cweId < TopIdentifier)
+        if (cweId > TeamMentorIdentifier)
         {
             cxWsResponseQueryDescription.QueryDescription =
                 !CxTeamMentor_Mappings.Tm_QueryId_Mappings.ContainsKey(cweId)
                     ? String.Format("The TeamMentor article with Id {0} could not be found",cweId)
                     : String.Format(CxTeamMentor_Mappings.HtmlRedirectTemplate, CxTeamMentor_Mappings.Tm_QueryId_Mappings[cweId]);
         }
-        else
-        {
-            if (cweId > TopIdentifier)
-            {
-
-                cweId = (int) ((cweId - TopIdentifier) + TeamMentorIdentifier);
-                log.Debug(String.Format("Fixed CWE {0} ", cweId));
-                
-                var description = !CxTeamMentor_Mappings.Tm_QueryId_Mappings.ContainsKey(cweId)? string.Empty
-                    : String.Format(CxTeamMentor_Mappings.HtmlRedirectTemplate, CxTeamMentor_Mappings.Tm_QueryId_Mappings[cweId]);
-                if (!String.IsNullOrEmpty(description))
-                {
-                    var url = description.Substring(54, 76);
-                    log.Debug("URL is "+ url);
-                    WebRequest req = HttpWebRequest.Create(url);
-                    req.Method = "GET";
-
-                    string source;
-                    using (StreamReader reader = new StreamReader(req.GetResponse().GetResponseStream()))
-                    {
-                        source = reader.ReadToEnd();
-                    }
-                    cxWsResponseQueryDescription.QueryDescription = source;
-                }
-            }
-        }
+        
         log.Debug("HTML reponse " + cxWsResponseQueryDescription.QueryDescription);
     }
 
@@ -114,13 +89,12 @@ public class CxTeamMentor
             cxResults = (CxXMLResults) serializer.Deserialize(stream);
         }
 
-
+        //performing the TeamMentor mapping
         foreach (var xresult in cxResults.Items)
         {
             xresult.cweId = (Convert.ToInt32(TeamMentorIdentifier.ToString()) + Convert.ToInt32(xresult.id.ToString())).ToString();
         }
-        
-        var bytes = System.Text.Encoding.ASCII.GetBytes(cxResults.serialize(false));
+        var bytes = Encoding.ASCII.GetBytes(cxResults.serialize(false));
 
         result.ScanResults = bytes;         
 

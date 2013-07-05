@@ -17,11 +17,11 @@ namespace CheckMarxMapping.Test
         public void SetUp()
         {
             proxy = new CxPortalWebService_Wrapper();
-            SessionId= proxy.Login(new Credentials() {User = "admin@cx", Pass = ">t1SMIjfQX"}).SessionId;
+            SessionId= proxy.Login(new Credentials() {User = "admin@cx", Pass = "admin"}).SessionId;
             Assert.IsTrue(!string.IsNullOrEmpty(SessionId));
         }
 
-        [Test]
+        [Test,Ignore]
         [Description("Performs a WebService call to get the Query collections")]
         public void GetQueryCollections()
         {
@@ -30,7 +30,7 @@ namespace CheckMarxMapping.Test
            Assert.IsTrue(queryCollection.QueryGroups.Select(x => x.Queries.Any(y => y.Cwe <0)).Any());
         }
 
-        [Test]
+        [Test,Ignore]
         public void CheckMarx_Mapping_HTML_Redirection_Form_Is_Ok()
         {
 

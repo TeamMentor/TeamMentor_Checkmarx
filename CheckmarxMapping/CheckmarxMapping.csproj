@@ -78,6 +78,9 @@
   <ItemGroup>
     <Folder Include="Logs\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\CheckMarxConfig.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <ProjectExtensions>
