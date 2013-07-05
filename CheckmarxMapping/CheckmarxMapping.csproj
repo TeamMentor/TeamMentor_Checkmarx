@@ -47,12 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Code\CxPortalWebService.cs" />
-    <Compile Include="App_Code\CxTeamMentor.cs" />
-    <Compile Include="App_Code\CxTeamMentor_Mappings.cs" />
-    <Compile Include="App_Code\CxXMLResults.cs" />
+    <Compile Include="Code\CxPortalWebService.cs" />
+    <Compile Include="Code\CxTeamMentor.cs" />
+    <Compile Include="Code\CxTeamMentor_Mappings.cs" />
+    <Compile Include="Code\CxXMLResults.cs" />
     <Compile Include="App_Data\_WebMethod_CxPortalWebService.cs" />
-    <Compile Include="App_Code\Config.cs" />
+    <Compile Include="Code\Config.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -80,6 +80,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\CheckMarxConfig.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\Michael.pubxml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

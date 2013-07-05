@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Xml.Serialization;
 using log4net;
+using log4net.Config;
 
 /// <summary>
 /// Summary description for CxTeamMentor_Mappings
@@ -19,7 +20,9 @@ public class CxTeamMentor_Mappings
     #region class contructor
     static CxTeamMentor_Mappings()
     {
+        XmlConfigurator.Configure();
         Tm_QueryId_Mappings = new Dictionary<int, string>();
+        log.Debug("Loading XML mapping...");
         LoadData();
     }
 
@@ -46,7 +49,7 @@ public class CxTeamMentor_Mappings
         string xmlResult;
         try
         {
-            using (var fs = new FileStream(file, FileMode.Open))
+            using (var fs = File.OpenRead(file))
             {
                 var sw = new StreamReader(fs);
                 xmlResult = sw.ReadToEnd();

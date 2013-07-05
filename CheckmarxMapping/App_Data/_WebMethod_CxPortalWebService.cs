@@ -2,6 +2,7 @@
 using System.Web.Services;
 using System;
 using log4net;
+using log4net.Config;
 
 [WebService(Namespace = "http://Checkmarx.com/")]
 public class CxPortalWebService_Wrapper
@@ -10,6 +11,8 @@ public class CxPortalWebService_Wrapper
 	public CxPortalWebService _web_Service { get; set; }
 	public CxPortalWebService_Wrapper()
 	{
+        XmlConfigurator.Configure();
+
         log.Debug("WebService proxy constructor.Loading user data");
 	    var config = new CXConfiguration();
 	    var data =config.secretData_Load();
