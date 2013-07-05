@@ -356,8 +356,9 @@ public partial class CxPortalWebService : System.Web.Services.Protocols.SoapHttp
     private System.Threading.SendOrPostCallback GetPresetListOperationCompleted;
     
     /// <remarks/>
-    public CxPortalWebService() {
-        this.Url = "http://checkmarx.teammentor.net/CxWebInterface/CxWebService.asmx";
+    public CxPortalWebService(string endPoint) 
+    {
+        this.Url = endPoint;
     }
     
     /// <remarks/>

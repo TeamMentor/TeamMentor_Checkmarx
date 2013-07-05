@@ -47,12 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Code\CxXMLResults.cs" />
-    <Compile Include="App_Data\CxPortalWebService.cs" />
-    <Compile Include="App_Data\CxTeamMentor.cs" />
-    <Compile Include="App_Data\CxTeamMentor_Mappings.cs" />
-    <Compile Include="App_Data\CxXMLResults.cs" />
+    <Compile Include="App_Code\CxPortalWebService.cs" />
+    <Compile Include="App_Code\CxTeamMentor.cs" />
+    <Compile Include="App_Code\CxTeamMentor_Mappings.cs" />
+    <Compile Include="App_Code\CxXMLResults.cs" />
     <Compile Include="App_Data\_WebMethod_CxPortalWebService.cs" />
+    <Compile Include="App_Code\Config.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

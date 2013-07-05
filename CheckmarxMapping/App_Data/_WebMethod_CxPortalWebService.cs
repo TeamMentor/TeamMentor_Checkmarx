@@ -10,7 +10,14 @@ public class CxPortalWebService_Wrapper
 	public CxPortalWebService _web_Service { get; set; }
 	public CxPortalWebService_Wrapper()
 	{
-		_web_Service = new CxPortalWebService();
+        log.Debug("WebService proxy constructor.Loading user data");
+	    var config = new CXConfiguration();
+	    var data =config.secretData_Load();
+
+        log.Debug("Checkmarx WebService proxy is " + data.CheckMarx_WebService_EndPoint);
+	    log.Debug("TeamMentor Vulnerabilities server is "+ data.TeamMentor_Vulnerabilities_Server_URL);
+
+		_web_Service = new CxPortalWebService(data.CheckMarx_WebService_EndPoint);
 	}
 	[WebMethod()]
 	public CxQueryCollectionResponse GetQueryCollection(string sessionId)
