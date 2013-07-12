@@ -99,5 +99,12 @@ public class CxTeamMentor
         result.ScanResults = bytes;         
 
     }
-   
+
+    public void TMFilterFor_CxWSResponceScanResults(CxWSResponceScanResults results)
+    {
+        log.Debug(String.Format("Inside TMFilterFor_CxWSResponceScanResults "));
+
+        results.Results.ToList().ForEach(item => item.QueryId = (TeamMentorIdentifier+ item.QueryId));
+    }
+
 }

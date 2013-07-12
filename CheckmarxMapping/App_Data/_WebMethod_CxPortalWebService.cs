@@ -94,6 +94,7 @@ public class CxPortalWebService_Wrapper
 	{
         log.Debug("[CxPortalWebService_Wrapper]- Inside GetResultsForScan");
 		CxWSResponceScanResults result = _web_Service.GetResultsForScan(sessionID, scanId);
+         new CxTeamMentor().TMFilterFor_CxWSResponceScanResults(result);
 		return result;
 	}
 	[WebMethod()]
@@ -207,12 +208,12 @@ public class CxPortalWebService_Wrapper
 		CxWSResponseSaasPackage result = _web_Service.GetSaasPackages();
 		return result;
 	}
-	[WebMethod()]
-	public CxWSResponseSaasLoginData SaasLogin(Credentials applicationCredentials)
-	{
-		CxWSResponseSaasLoginData result = _web_Service.SaasLogin(applicationCredentials);
-		return result;
-	}
+    [WebMethod()]
+    public CxWSResponseSaasLoginData SaasLogin(Credentials applicationCredentials, int lcid)
+    {
+        CxWSResponseSaasLoginData result = _web_Service.SaasLogin(applicationCredentials, lcid);
+        return result;
+    }
 	[WebMethod()]
 	public CxWSResponseEngineServers GetEngineServers(string sessionID)
 	{
@@ -304,18 +305,18 @@ public class CxPortalWebService_Wrapper
 		CxWSResponseCache result = _web_Service.GetCache(sessionId, scanId);
 		return result;
 	}
-	[WebMethod()]
-	public CxWSResponseLoginData Login(Credentials applicationCredentials)
-	{
-		CxWSResponseLoginData result = _web_Service.Login(applicationCredentials);
-		return result;
-	}
-	[WebMethod()]
-	public CxWSResponseLoginData SsoLogin(Credentials encryptedCredentials)
-	{
-		CxWSResponseLoginData result = _web_Service.SsoLogin(encryptedCredentials);
-		return result;
-	}
+    [WebMethod()]
+    public CxWSResponseLoginData Login(Credentials applicationCredentials, int lcid)
+    {
+        CxWSResponseLoginData result = _web_Service.Login(applicationCredentials, lcid);
+        return result;
+    }
+    [WebMethod()]
+    public CxWSResponseLoginData SsoLogin(Credentials encryptedCredentials, int lcid)
+    {
+        CxWSResponseLoginData result = _web_Service.SsoLogin(encryptedCredentials, lcid);
+        return result;
+    }
 	[WebMethod()]
 	public CxWSBasicRepsonse Logout(string sessionID)
 	{
@@ -650,7 +651,9 @@ public class CxPortalWebService_Wrapper
 	public CxWSResponseScanResults GetScanXMLReport(string sessionID, long scanID)
 	{
 		CxWSResponseScanResults result = _web_Service.GetScanXMLReport(sessionID, scanID);
-        new CxTeamMentor().TMFilterFor_CxWSResponseScanResults(result);        
+        if (result.ScanResults != null) { 
+        new CxTeamMentor().TMFilterFor_CxWSResponseScanResults(result);
+        }
 		return result;
 	}
 	[WebMethod()]

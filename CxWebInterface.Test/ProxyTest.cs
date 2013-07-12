@@ -17,7 +17,7 @@ namespace CheckMarxMapping.Test
         public void SetUp()
         {
             proxy = new CxPortalWebService_Wrapper();
-            SessionId= proxy.Login(new Credentials() {User = "admin@cx", Pass = "admin"}).SessionId;
+            SessionId= proxy.Login(new Credentials() {User = "admin@cx", Pass = "admin"},1).SessionId;
             Assert.IsTrue(!string.IsNullOrEmpty(SessionId));
         }
 
