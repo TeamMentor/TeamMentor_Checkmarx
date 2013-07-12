@@ -107,4 +107,9 @@ public class CxTeamMentor
         results.Results.ToList().ForEach(item => item.QueryId = (TeamMentorIdentifier+ item.QueryId));
     }
 
+    public void TMFilterFor_CxWSResponceQuerisForScan(CxWSResponceQuerisForScan results)
+    {
+        results.Queries.ToList().ForEach(item => item.CWE = (TeamMentorIdentifier + item.QueryId));
+    }
+
 }
