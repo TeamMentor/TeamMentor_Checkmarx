@@ -77,6 +77,8 @@ public class CxPortalWebService_Wrapper
 	{
         log.Debug("[CxPortalWebService_Wrapper]- Inside GetQueriesForScanByRunId");
 		CxWSResponceQuerisForScanAndId result = _web_Service.GetQueriesForScanByRunId(sessionID, runId);
+        
+
 		return result;
 	}
 	[WebMethod()]
@@ -98,7 +100,7 @@ public class CxPortalWebService_Wrapper
 	{
         log.Debug("[CxPortalWebService_Wrapper]- Inside GetResultsForScan");
 		CxWSResponceScanResults result = _web_Service.GetResultsForScan(sessionID, scanId);
-         new CxTeamMentor().TMFilterFor_CxWSResponceScanResults(result);
+         //new CxTeamMentor().TMFilterFor_CxWSResponceScanResults(result);
 		return result;
 	}
 	[WebMethod()]
