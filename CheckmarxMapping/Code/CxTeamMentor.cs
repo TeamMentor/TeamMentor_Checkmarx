@@ -19,7 +19,7 @@ public class CxTeamMentor
 
 {
     private static readonly long TeamMentorIdentifier = 1000000;
-    private static readonly long TopIdentifier =        2000000;
+    
 
     private ILog log = LogManager.GetLogger(typeof (CxTeamMentor));
 
@@ -33,29 +33,36 @@ public class CxTeamMentor
         log.Debug("Inside TMFilterFor_CxQueryCollectionResponse method...");
 
         IEnumerable<CxWSQuery> queries = from queryGroup in cxQueryCollectionResponse.QueryGroups
-                                         from query in queryGroup.Queries
+                                         from query in queryGroup.Queries.Where(item => (CxTeamMentor_Mappings.Tm_QueryId_Mappings.ContainsKey((int)(TeamMentorIdentifier + item.QueryId))))
                                          select query;
+
 
 
         foreach (var query in queries)
         {
             query.Cwe = TeamMentorIdentifier + query.QueryId; // set the Cwe value to the negative of the QueryId
+            log.Debug("[TMFilterFor_CxQueryCollectionResponse] new CWE " + query.Cwe);
             query.Name += "_TM"; // Temp query name minor change
         }
     }
 
 
     public void TMFilterFor_CxWSResponseResultCollection(CxWSResponseResultCollection cxWsResponseResultCollection)
-
+         
     {
         log.Debug("Inside TMFilterFor_CxWSResponseResultCollection method...");
 
-        AuditScanResult[] results = cxWsResponseResultCollection.ResultCollection.Results;
-
-        foreach (AuditScanResult result in results)
+         IEnumerable<AuditScanResult> results;
+        if (cxWsResponseResultCollection.notNull() && cxWsResponseResultCollection.ResultCollection.notNull())
         {
-            result.CWE = TeamMentorIdentifier+ result.QueryId; // set the Cwe value to the negative of the QueryId
-            result.QueryName += "_TM"; // Temp query name minor change
+            results =cxWsResponseResultCollection.ResultCollection.Results.Where(item =>
+                    (CxTeamMentor_Mappings.Tm_QueryId_Mappings.ContainsKey((int) (TeamMentorIdentifier + item.QueryId))));
+
+            foreach (AuditScanResult result in results)
+            {
+                result.CWE = TeamMentorIdentifier + result.QueryId; // set the Cwe value to the negative of the QueryId
+                result.QueryName += "_TM"; // Temp query name minor change
+            }
         }
     }
 
@@ -110,7 +117,14 @@ public class CxTeamMentor
     public void TMFilterFor_CxWSResponceQuerisForScan(CxWSResponceQuerisForScan results)
     {
         log.Debug(String.Format("Inside TMFilterFor_CxWSResponceQuerisForScan "));
-        results.Queries.ToList().ForEach(item => item.CWE = (TeamMentorIdentifier + item.QueryId));
+        var list = new List<CxWSQueryVulnerabilityData>();
+
+        foreach (var item in results.Queries.ToList())
+        {
+            if ((CxTeamMentor_Mappings.Tm_QueryId_Mappings.ContainsKey((int) (TeamMentorIdentifier + item.QueryId)))) 
+                list.Add(item);
+        }
+        list.ForEach(item => item.CWE = (TeamMentorIdentifier + item.QueryId));
     }
 
 }
