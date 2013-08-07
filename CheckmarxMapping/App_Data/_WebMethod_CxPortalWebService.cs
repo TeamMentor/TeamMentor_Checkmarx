@@ -23,72 +23,6 @@ public class CxPortalWebService_Wrapper
 		_web_Service = new CxPortalWebService(data.CheckMarx_WebService_EndPoint);
 	}
 	[WebMethod()]
-	public CxQueryCollectionResponse GetQueryCollection(string sessionId)
-	{
-		CxQueryCollectionResponse result = _web_Service.GetQueryCollection(sessionId);
-        log.Debug("[CxPortalWebService_Wrapper]- Inside GetQueryCollection");
-       // new CxTeamMentor().TMFilterFor_CxQueryCollectionResponse(result);
-		return result;
-	}
-	[WebMethod()]
-	public CxWSResponsePresetDetails GetPresetDetails(string sessionId, long id)
-	{
-        log.Debug("[CxPortalWebService_Wrapper]- Inside GetPresetDetails");
-		CxWSResponsePresetDetails result = _web_Service.GetPresetDetails(sessionId, id);
-		return result;
-	}
-	[WebMethod()]
-	public CxWSResponsePresetDetails CreateNewPreset(string sessionId, CxPresetDetails presrt)
-	{
-		CxWSResponsePresetDetails result = _web_Service.CreateNewPreset(sessionId, presrt);
-		return result;
-	}
-	[WebMethod()]
-	public CxWSResponsePresetDetails UpdatePreset(string sessionId, CxPresetDetails presrt)
-	{
-		CxWSResponsePresetDetails result = _web_Service.UpdatePreset(sessionId, presrt);
-		return result;
-	}
-	[WebMethod()]
-	public CxWSBasicRepsonse DeletePreset(string sessionId, long id)
-	{
-		CxWSBasicRepsonse result = _web_Service.DeletePreset(sessionId, id);
-		return result;
-	}
-	[WebMethod()]
-	public CxWSBasicRepsonse IsValidPresetName(string sessionID, string presetName)
-	{
-		CxWSBasicRepsonse result = _web_Service.IsValidPresetName(sessionID, presetName);
-		return result;
-	}
-	[WebMethod()]
-	public CxWSResponceQuerisForScan GetQueriesForScan(string sessionID, long scanId)
-	{
-        log.Debug("[CxPortalWebService_Wrapper]- Inside GetQueriesForScan");
-		CxWSResponceQuerisForScan result = _web_Service.GetQueriesForScan(sessionID, scanId);
-	    if (result != null && result.Queries != null)
-	    {
-	        new CxTeamMentor().TMFilterFor_CxWSResponceQuerisForScan(result);
-	    }
-	    return result;
-	}
-	[WebMethod()]
-	public CxWSResponceQuerisForScanAndId GetQueriesForScanByRunId(string sessionID, string runId)
-	{
-        log.Debug("[CxPortalWebService_Wrapper]- Inside GetQueriesForScanByRunId");
-		CxWSResponceQuerisForScanAndId result = _web_Service.GetQueriesForScanByRunId(sessionID, runId);
-        
-
-		return result;
-	}
-	[WebMethod()]
-	public CxWSResponceScanResults GetResultsForQuery(string sessionID, long scanId, long queryId)
-	{
-        log.Debug("[CxPortalWebService_Wrapper]- Inside GetResultsForQuery");
-		CxWSResponceScanResults result = _web_Service.GetResultsForQuery(sessionID, scanId, queryId);
-	    return result;
-	}
-	[WebMethod()]
 	public CxWSResponceScanResults GetResultsForQueryQroup(string sessionID, long scanId, long queryGroupId)
 	{
         log.Debug("[CxPortalWebService_Wrapper]- Inside GetResultsForQueryQroup");
@@ -197,6 +131,12 @@ public class CxPortalWebService_Wrapper
 		return result;
 	}
 	[WebMethod()]
+	public CxWSResponseShortQueryDescription GetQueryShortDescription(string sessionId, long queryId)
+	{
+		CxWSResponseShortQueryDescription result = _web_Service.GetQueryShortDescription(sessionId, queryId);
+		return result;
+	}
+	[WebMethod()]
 	public CxWSBasicRepsonse RegisterSaasPendingUser(SaasPendingUser pendingUser, string activationPageUrl)
 	{
 		CxWSBasicRepsonse result = _web_Service.RegisterSaasPendingUser(pendingUser, activationPageUrl);
@@ -214,12 +154,24 @@ public class CxPortalWebService_Wrapper
 		CxWSResponseSaasPackage result = _web_Service.GetSaasPackages();
 		return result;
 	}
-    [WebMethod()]
-    public CxWSResponseSaasLoginData SaasLogin(Credentials applicationCredentials, int lcid)
-    {
-        CxWSResponseSaasLoginData result = _web_Service.SaasLogin(applicationCredentials, lcid);
-        return result;
-    }
+	[WebMethod()]
+	public CxWSResponseSaasPackage GetTeamSaaSPackage(string teamId)
+	{
+		CxWSResponseSaasPackage result = _web_Service.GetTeamSaaSPackage(teamId);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponseSaasLoginData SaasLogin(Credentials applicationCredentials, int lcid)
+	{
+		CxWSResponseSaasLoginData result = _web_Service.SaasLogin(applicationCredentials, lcid);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSBasicRepsonse SendEmailForSales(string sessionID, EmailForSalesData emailData)
+	{
+		CxWSBasicRepsonse result = _web_Service.SendEmailForSales(sessionID, emailData);
+		return result;
+	}
 	[WebMethod()]
 	public CxWSResponseEngineServers GetEngineServers(string sessionID)
 	{
@@ -249,6 +201,46 @@ public class CxPortalWebService_Wrapper
 	{
         log.Debug("[CxPortalWebService_Wrapper]- Inside Scan");
 		CxWSResponseRunID result = _web_Service.Scan(sessionId, args);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponseQueries ExportQueries(string sessionId, long[] queryIds)
+	{
+		CxWSResponseQueries result = _web_Service.ExportQueries(sessionId, queryIds);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponsePreset ExportPreset(string sessionId, long presetId)
+	{
+		CxWSResponsePreset result = _web_Service.ExportPreset(sessionId, presetId);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSBasicRepsonse ImportQueries(string sessionId, 	[System.Xml.Serialization.XmlElementAttribute(DataType = "base64Binary")]
+byte[] importedFile)
+	{
+		CxWSBasicRepsonse result = _web_Service.ImportQueries(sessionId, importedFile);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponseTransportedQueries GetExistingQueries(string sessionId, 	[System.Xml.Serialization.XmlElementAttribute(DataType = "base64Binary")]
+byte[] importedFile)
+	{
+		CxWSResponseTransportedQueries result = _web_Service.GetExistingQueries(sessionId, importedFile);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponseExistsingTransportedPresetQueries GetExistingPresetQueries(string sessionId, 	[System.Xml.Serialization.XmlElementAttribute(DataType = "base64Binary")]
+byte[] importedFile)
+	{
+		CxWSResponseExistsingTransportedPresetQueries result = _web_Service.GetExistingPresetQueries(sessionId, importedFile);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSBasicRepsonse ImportPreset(string sessionId, 	[System.Xml.Serialization.XmlElementAttribute(DataType = "base64Binary")]
+byte[] importedFile)
+	{
+		CxWSBasicRepsonse result = _web_Service.ImportPreset(sessionId, importedFile);
 		return result;
 	}
 	[WebMethod()]
@@ -311,18 +303,18 @@ public class CxPortalWebService_Wrapper
 		CxWSResponseCache result = _web_Service.GetCache(sessionId, scanId);
 		return result;
 	}
-    [WebMethod()]
-    public CxWSResponseLoginData Login(Credentials applicationCredentials, int lcid)
-    {
-        CxWSResponseLoginData result = _web_Service.Login(applicationCredentials, lcid);
-        return result;
-    }
-    [WebMethod()]
-    public CxWSResponseLoginData SsoLogin(Credentials encryptedCredentials, int lcid)
-    {
-        CxWSResponseLoginData result = _web_Service.SsoLogin(encryptedCredentials, lcid);
-        return result;
-    }
+	[WebMethod()]
+	public CxWSResponseLoginData Login(Credentials applicationCredentials, int lcid)
+	{
+		CxWSResponseLoginData result = _web_Service.Login(applicationCredentials, lcid);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponseLoginData SsoLogin(Credentials encryptedCredentials, int lcid)
+	{
+		CxWSResponseLoginData result = _web_Service.SsoLogin(encryptedCredentials, lcid);
+		return result;
+	}
 	[WebMethod()]
 	public CxWSBasicRepsonse Logout(string sessionID)
 	{
@@ -650,7 +642,7 @@ public class CxPortalWebService_Wrapper
 	[WebMethod()]
 	public CXWSResponseScanReportStatus GetScanXMLReportStatus(string sessionID, long scanID)
 	{
-		CXWSResponseScanReportStatus result = _web_Service.GetScanXMLReportStatus(sessionID, scanID);        
+		CXWSResponseScanReportStatus result = _web_Service.GetScanXMLReportStatus(sessionID, scanID);
 		return result;
 	}
 	[WebMethod()]
@@ -1037,6 +1029,60 @@ public class CxPortalWebService_Wrapper
 	public CxWSResponsePresetList GetPresetList(string SessionID)
 	{
 		CxWSResponsePresetList result = _web_Service.GetPresetList(SessionID);
+		return result;
+	}
+	[WebMethod()]
+	public CxQueryCollectionResponse GetQueryCollection(string sessionId)
+	{
+		CxQueryCollectionResponse result = _web_Service.GetQueryCollection(sessionId);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponsePresetDetails GetPresetDetails(string sessionId, long id)
+	{
+		CxWSResponsePresetDetails result = _web_Service.GetPresetDetails(sessionId, id);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponsePresetDetails CreateNewPreset(string sessionId, CxPresetDetails presrt)
+	{
+		CxWSResponsePresetDetails result = _web_Service.CreateNewPreset(sessionId, presrt);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponsePresetDetails UpdatePreset(string sessionId, CxPresetDetails presrt)
+	{
+		CxWSResponsePresetDetails result = _web_Service.UpdatePreset(sessionId, presrt);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSBasicRepsonse DeletePreset(string sessionId, long id)
+	{
+		CxWSBasicRepsonse result = _web_Service.DeletePreset(sessionId, id);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSBasicRepsonse IsValidPresetName(string sessionID, string presetName)
+	{
+		CxWSBasicRepsonse result = _web_Service.IsValidPresetName(sessionID, presetName);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponceQuerisForScan GetQueriesForScan(string sessionID, long scanId)
+	{
+		CxWSResponceQuerisForScan result = _web_Service.GetQueriesForScan(sessionID, scanId);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponceQuerisForScanAndId GetQueriesForScanByRunId(string sessionID, string runId)
+	{
+		CxWSResponceQuerisForScanAndId result = _web_Service.GetQueriesForScanByRunId(sessionID, runId);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponceScanResults GetResultsForQuery(string sessionID, long scanId, long queryId)
+	{
+		CxWSResponceScanResults result = _web_Service.GetResultsForQuery(sessionID, scanId, queryId);
 		return result;
 	}
 }
