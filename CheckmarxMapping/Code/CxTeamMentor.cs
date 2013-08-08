@@ -107,12 +107,12 @@ public class CxTeamMentor
 
     }
 
-    //public void TMFilterFor_CxWSResponceScanResults(CxWSResponceScanResults results)
-    //{
-    //    log.Debug(String.Format("Inside TMFilterFor_CxWSResponceScanResults "));
+    public void TMFilterFor_CxWSResponceScanResults(CxWSResponceScanResults results)
+    {
+        log.Debug(String.Format("Inside TMFilterFor_CxWSResponceScanResults "));
 
-    //    results.Results.ToList().ForEach(item => item.QueryId = (TeamMentorIdentifier+ item.QueryId));
-    //}
+        results.Results.ToList().ForEach(item => item.QueryId = (TeamMentorIdentifier + item.QueryId));
+    }
 
     public void TMFilterFor_CxWSResponceQuerisForScan(CxWSResponceQuerisForScan results)
     {

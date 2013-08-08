@@ -1071,6 +1071,12 @@ byte[] importedFile)
 	public CxWSResponceQuerisForScan GetQueriesForScan(string sessionID, long scanId)
 	{
 		CxWSResponceQuerisForScan result = _web_Service.GetQueriesForScan(sessionID, scanId);
+        log.Debug("[CxPortalWebService_Wrapper]- Inside GetQueriesForScan");
+        if (result != null && result.Queries != null)
+        {
+            new CxTeamMentor().TMFilterFor_CxWSResponceQuerisForScan(result);
+        }
+        return result;
 		return result;
 	}
 	[WebMethod()]
