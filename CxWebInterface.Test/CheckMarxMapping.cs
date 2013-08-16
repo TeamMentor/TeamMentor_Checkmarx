@@ -112,7 +112,7 @@ namespace CxWebInterface.Test
             var result = String.Format(CxTeamMentor_Mappings.HtmlRedirectTemplate, article);
             var expectedUrl =
                 String.Format(
-                    "<html><head><meta http-equiv=\"refresh\" content=\"0;url=http://checkmarx.teammentor.net/teammentor/article/{0}\"></head></html>",
+                    "<html><head><meta http-equiv=\"refresh\" content=\"0;url=http://checkmarx.teammentor.net/article/{0}\"></head></html>",
                     article);
             Assert.AreEqual(expectedUrl.ToLowerInvariant(),result.ToLowerInvariant());
         }

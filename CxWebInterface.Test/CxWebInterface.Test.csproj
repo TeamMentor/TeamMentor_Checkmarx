@@ -55,6 +55,9 @@
     <Compile Include="ProxyTest.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App_Data\CheckMarxConfig.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
