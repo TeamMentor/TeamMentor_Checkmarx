@@ -1,19 +1,14 @@
 ﻿using System;
-using System.IO;
-using System.Xml;
-using System.Xml.Serialization;
 using O2.DotNetWrappers.ExtensionMethods;
 
 public  class CXConfiguration
 {
     public string CheckMarx_WebService_EndPoint { get; set; }
     public string TeamMentor_Vulnerabilities_Server_URL { get; set; }
-
-
     public CXConfiguration()
     {
-        
-        
+        CheckMarx_WebService_EndPoint = string.Empty;
+        TeamMentor_Vulnerabilities_Server_URL = string.Empty;
     }
 }
 

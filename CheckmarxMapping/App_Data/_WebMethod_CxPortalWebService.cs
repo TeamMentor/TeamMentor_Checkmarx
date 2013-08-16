@@ -18,8 +18,7 @@ public class CxPortalWebService_Wrapper
 	    var data =config.secretData_Load();
 
         log.Debug("Checkmarx WebService proxy is " + data.CheckMarx_WebService_EndPoint);
-	    log.Debug("TeamMentor Vulnerabilities server is "+ data.TeamMentor_Vulnerabilities_Server_URL);
-
+	   
 		_web_Service = new CxPortalWebService(data.CheckMarx_WebService_EndPoint);
 	}
 	[WebMethod()]
@@ -1089,6 +1088,10 @@ byte[] importedFile)
 	public CxWSResponceScanResults GetResultsForQuery(string sessionID, long scanId, long queryId)
 	{
 		CxWSResponceScanResults result = _web_Service.GetResultsForQuery(sessionID, scanId, queryId);
-		return result;
+        //if (result != null && result.Results != null)
+        //{
+        //    new CxTeamMentor().TMFilterFor_CxWSResponceScanResults(result);
+        //}
+	    return result;
 	}
 }
