@@ -1,1 +1,1 @@
-<%@ WebService Language="c#" Class="CxPortalWebService_Wrapper" %>
+<%@ WebService Language="c#" Class="CxPortalWebService" %>

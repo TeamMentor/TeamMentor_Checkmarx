@@ -47,7 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Code\CxPortalWebService.cs" />
+    <Compile Include="Code\CxPortalWebService_Proxy.cs" />
     <Compile Include="Code\CxTeamMentor.cs" />
     <Compile Include="Code\CxTeamMentor_Mappings.cs" />
     <Compile Include="Code\CxXMLResults.cs" />

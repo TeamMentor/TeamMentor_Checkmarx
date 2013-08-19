@@ -29,7 +29,7 @@ using System.Xml.Serialization;
 [System.Xml.Serialization.XmlIncludeAttribute(typeof(WebClientUser))]
 [System.Xml.Serialization.XmlIncludeAttribute(typeof(CxPivotRow[]))]
 [System.Xml.Serialization.XmlIncludeAttribute(typeof(object[]))]
-public partial class CxPortalWebService : System.Web.Services.Protocols.SoapHttpClientProtocol {
+public partial class CxPortalWebService_Proxy : System.Web.Services.Protocols.SoapHttpClientProtocol {
     
     private System.Threading.SendOrPostCallback GetResultsForQueryQroupOperationCompleted;
     
@@ -374,7 +374,7 @@ public partial class CxPortalWebService : System.Web.Services.Protocols.SoapHttp
     private System.Threading.SendOrPostCallback GetResultsForQueryOperationCompleted;
     
     /// <remarks/>
-    public CxPortalWebService(string url) {
+    public CxPortalWebService_Proxy(string url) {
         this.Url = url;
     }
     

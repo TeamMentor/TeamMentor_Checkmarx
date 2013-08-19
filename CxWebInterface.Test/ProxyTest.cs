@@ -11,12 +11,12 @@ namespace CheckMarxMapping.Test
         private static string SessionId;
         private static readonly string MappingNotFoundMessage = "The TeamMentor article with Id {0} could not be found";
 
-        private CxPortalWebService_Wrapper proxy;
+        private CxPortalWebService proxy;
         [SetUp]
         [Description("Performs the signup at CheckMarx")]
         public void SetUp()
         {
-            proxy = new CxPortalWebService_Wrapper();
+            proxy = new CxPortalWebService();
             SessionId= proxy.Login(new Credentials() {User = "admin@cx", Pass = "admin"},1).SessionId;
             Assert.IsTrue(!string.IsNullOrEmpty(SessionId));
         }
