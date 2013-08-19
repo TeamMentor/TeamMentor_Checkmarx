@@ -127,5 +127,17 @@ public class CxTeamMentor
         list.ForEach(item => item.CWE = (TeamMentorIdentifier + item.QueryId));
     }
 
+    public void TMFilterFor_CxWSResponceQuerisForScanAndId(CxWSResponceQuerisForScanAndId results)
+    {
+        log.Debug(String.Format("Inside TMFilterFor_CxWSResponceQuerisForScanAndId "));
+        foreach (var result in results.Queries)
+        {
+            if ((CxTeamMentor_Mappings.Tm_QueryId_Mappings.ContainsKey((int) (TeamMentorIdentifier + result.QueryId))))
+            {
+                result.CWE = (TeamMentorIdentifier + result.QueryId);
+            }
+        }
+    }
+
 
 }

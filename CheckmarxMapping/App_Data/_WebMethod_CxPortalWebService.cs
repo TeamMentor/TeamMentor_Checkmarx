@@ -1081,8 +1081,13 @@ byte[] importedFile)
 	[WebMethod()]
 	public CxWSResponceQuerisForScanAndId GetQueriesForScanByRunId(string sessionID, string runId)
 	{
+        log.Debug("[CxPortalWebService]- Inside GetQueriesForScanByRunId");
 		CxWSResponceQuerisForScanAndId result = WebServiceProxy.GetQueriesForScanByRunId(sessionID, runId);
-		return result;
+        if (result!=null && result.Queries!=null)
+	    {
+            new CxTeamMentor().TMFilterFor_CxWSResponceQuerisForScanAndId(result);
+	    }
+	    return result;
 	}
 	[WebMethod()]
 	public CxWSResponceScanResults GetResultsForQuery(string sessionID, long scanId, long queryId)
