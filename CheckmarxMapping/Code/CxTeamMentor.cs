@@ -100,7 +100,7 @@ public class CxTeamMentor
         //performing the TeamMentor mapping
         foreach (var xresult in cxResults.Items)
         {
-            newCWE = Convert.ToInt32(TeamMentorIdentifier) + Convert.ToInt32(xresult.cweId);
+            newCWE = Convert.ToInt32(TeamMentorIdentifier) + Convert.ToInt32(xresult.id);
             if ((CxTeamMentor_Mappings.Tm_QueryId_Mappings.ContainsKey(newCWE)))
             {
                 xresult.cweId = newCWE.ToString();
