@@ -88,6 +88,7 @@ public class CxTeamMentor
 
     public void TMFilterFor_CxWSResponseScanResults(CxWSResponseScanResults result)
     {
+        var newCWE = 0;
         CxXMLResults cxResults;
         using (var stream = new MemoryStream(result.ScanResults))
         {
@@ -99,7 +100,11 @@ public class CxTeamMentor
         //performing the TeamMentor mapping
         foreach (var xresult in cxResults.Items)
         {
-            xresult.cweId = (Convert.ToInt32(TeamMentorIdentifier.ToString()) + Convert.ToInt32(xresult.id.ToString())).ToString();
+            newCWE = Convert.ToInt32(TeamMentorIdentifier) + Convert.ToInt32(xresult.cweId);
+            if ((CxTeamMentor_Mappings.Tm_QueryId_Mappings.ContainsKey(newCWE)))
+            {
+                xresult.cweId = newCWE.ToString();
+            }
         }
         var bytes = Encoding.ASCII.GetBytes(cxResults.serialize(false));
 

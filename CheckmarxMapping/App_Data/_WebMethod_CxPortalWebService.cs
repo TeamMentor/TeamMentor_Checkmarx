@@ -657,6 +657,10 @@ byte[] importedFile)
 	public CxWSResponseScanResults GetScanXMLReportByRunId(string sessionID, string runId)
 	{
 		CxWSResponseScanResults result = WebServiceProxy.GetScanXMLReportByRunId(sessionID, runId);
+        if (result.ScanResults != null)
+        {
+            new CxTeamMentor().TMFilterFor_CxWSResponseScanResults(result);
+        }
 		return result;
 	}
 	[WebMethod()]
