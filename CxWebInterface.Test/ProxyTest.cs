@@ -11,17 +11,17 @@ namespace CheckMarxMapping.Test
         private static string SessionId;
         private static readonly string MappingNotFoundMessage = "The TeamMentor article with Id {0} could not be found";
 
-        private CxPortalWebService_Wrapper proxy;
+        private CxPortalWebService proxy;
         [SetUp]
         [Description("Performs the signup at CheckMarx")]
         public void SetUp()
         {
-            proxy = new CxPortalWebService_Wrapper();
-            SessionId= proxy.Login(new Credentials() {User = "admin@cx", Pass = ">t1SMIjfQX"}).SessionId;
+            proxy = new CxPortalWebService();
+            SessionId= proxy.Login(new Credentials() {User = "admin@cx", Pass = "admin"},1).SessionId;
             Assert.IsTrue(!string.IsNullOrEmpty(SessionId));
         }
 
-        [Test]
+        [Test,Ignore]
         [Description("Performs a WebService call to get the Query collections")]
         public void GetQueryCollections()
         {
@@ -30,7 +30,7 @@ namespace CheckMarxMapping.Test
            Assert.IsTrue(queryCollection.QueryGroups.Select(x => x.Queries.Any(y => y.Cwe <0)).Any());
         }
 
-        [Test]
+        [Test,Ignore]
         public void CheckMarx_Mapping_HTML_Redirection_Form_Is_Ok()
         {
 

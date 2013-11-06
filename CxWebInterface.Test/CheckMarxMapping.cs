@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -104,6 +105,18 @@ namespace CxWebInterface.Test
             Assert.IsTrue(deserializedResult.Mapping.Count() == 114);
         }
 
-       
+        [Test]
+        public void Html_MetaRefres_Form_Is_Valid()
+        {
+            var article = "supersecure.html";
+            var result = String.Format(CxTeamMentor_Mappings.HtmlRedirectTemplate, article);
+            var expectedUrl =
+                String.Format(
+                    "<html><head><meta http-equiv=\"refresh\" content=\"0;url=http://checkmarx.teammentor.net/article/{0}\"></head></html>",
+                    article);
+            Assert.AreEqual(expectedUrl.ToLowerInvariant(),result.ToLowerInvariant());
+        }
+
+
     }
 }

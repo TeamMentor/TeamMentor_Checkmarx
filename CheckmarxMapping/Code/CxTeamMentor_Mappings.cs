@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Xml.Serialization;
 using log4net;
+using log4net.Config;
 
 /// <summary>
 /// Summary description for CxTeamMentor_Mappings
@@ -14,12 +15,16 @@ public class CxTeamMentor_Mappings
     public static Dictionary<int, string> Tm_QueryId_Mappings { get; set; }
     public static string HtmlRedirectTemplate { get; set; }
     private static ILog log = LogManager.GetLogger(typeof (CxTeamMentor_Mappings));
+    private static CXConfiguration config;
     #endregion
 
     #region class contructor
     static CxTeamMentor_Mappings()
     {
+        XmlConfigurator.Configure();
         Tm_QueryId_Mappings = new Dictionary<int, string>();
+        log.Debug("Loading XML mapping...");
+        config = new CXConfiguration();
         LoadData();
     }
 
@@ -28,8 +33,11 @@ public class CxTeamMentor_Mappings
     #region Methods
     public static void LoadData()
     {
+        var teamMentorLibrary = config.secretData_Load().TeamMentor_Vulnerabilities_Server_URL;
+        log.Debug(String.Format("Using TeamMentor Vulnerability library located at " + teamMentorLibrary));
+
         HtmlRedirectTemplate = "<html><head><meta http-equiv=\"refresh\" content=\"0;" +
-                               "url=http://checkmarx.teammentor.net/article/{0}\"></head></html>";
+                               "url=" + teamMentorLibrary + "/article/{0}\"></head></html>";
 
         //var file = HostingEnvironment.MapPath(@"/App_Code/CheckMarxMapping.xml");
         string file;
@@ -46,7 +54,7 @@ public class CxTeamMentor_Mappings
         string xmlResult;
         try
         {
-            using (var fs = new FileStream(file, FileMode.Open))
+            using (var fs = File.OpenRead(file))
             {
                 var sw = new StreamReader(fs);
                 xmlResult = sw.ReadToEnd();
