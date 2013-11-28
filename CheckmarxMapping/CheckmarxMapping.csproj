@@ -79,7 +79,9 @@
     <Folder Include="Logs\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\CheckMarxConfig.config" />
+    <Content Include="App_Data\CheckMarxConfig.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\PublishProfiles\Michael.pubxml" />

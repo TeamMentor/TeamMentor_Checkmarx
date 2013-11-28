@@ -22,6 +22,87 @@ public class CxPortalWebService
 		WebServiceProxy = new CxPortalWebService_Proxy(data.CheckMarx_WebService_EndPoint);
 	}
 	[WebMethod()]
+	public CxWSResponseInstallationSettings GetInstallationSettings(string sessionID)
+	{
+		CxWSResponseInstallationSettings result = WebServiceProxy.GetInstallationSettings(sessionID);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponsePresetList GetPresetList(string SessionID)
+	{
+		CxWSResponsePresetList result = WebServiceProxy.GetPresetList(SessionID);
+		return result;
+	}
+	[WebMethod()]
+	public CxQueryCollectionResponse GetQueryCollection(string sessionId)
+	{
+		CxQueryCollectionResponse result = WebServiceProxy.GetQueryCollection(sessionId);
+        
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponsePresetDetails GetPresetDetails(string sessionId, long id)
+	{
+		CxWSResponsePresetDetails result = WebServiceProxy.GetPresetDetails(sessionId, id);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponsePresetDetails CreateNewPreset(string sessionId, CxPresetDetails presrt)
+	{
+		CxWSResponsePresetDetails result = WebServiceProxy.CreateNewPreset(sessionId, presrt);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponsePresetDetails UpdatePreset(string sessionId, CxPresetDetails presrt)
+	{
+		CxWSResponsePresetDetails result = WebServiceProxy.UpdatePreset(sessionId, presrt);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSBasicRepsonse DeletePreset(string sessionId, long id)
+	{
+		CxWSBasicRepsonse result = WebServiceProxy.DeletePreset(sessionId, id);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSBasicRepsonse IsValidPresetName(string sessionID, string presetName)
+	{
+		CxWSBasicRepsonse result = WebServiceProxy.IsValidPresetName(sessionID, presetName);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponceQuerisForScan GetQueriesForScan(string sessionID, long scanId)
+	{
+        CxWSResponceQuerisForScan result = WebServiceProxy.GetQueriesForScan(sessionID, scanId);
+        log.Debug("[CxPortalWebService]- Inside GetQueriesForScan");
+        if (result != null && result.Queries != null)
+        {
+            new CxTeamMentor().TMFilterFor_CxWSResponceQuerisForScan(result);
+        }
+        return result;
+	}
+	[WebMethod()]
+	public CxWSResponceQuerisForScanAndId GetQueriesForScanByRunId(string sessionID, string runId)
+	{
+        log.Debug("[CxPortalWebService]- Inside GetQueriesForScanByRunId");
+        CxWSResponceQuerisForScanAndId result = WebServiceProxy.GetQueriesForScanByRunId(sessionID, runId);
+        if (result != null && result.Queries != null)
+        {
+            new CxTeamMentor().TMFilterFor_CxWSResponceQuerisForScanAndId(result);
+        }
+        return result;
+	}
+	[WebMethod()]
+	public CxWSResponceScanResults GetResultsForQuery(string sessionID, long scanId, long queryId)
+    {
+        CxWSResponceScanResults result = WebServiceProxy.GetResultsForQuery(sessionID, scanId, queryId);
+        //if (result != null && result.Results != null)
+        //{
+        //    new CxTeamMentor().TMFilterFor_CxWSResponceScanResults(result);
+        //}
+        return result;
+	}
+	[WebMethod()]
 	public CxWSResponceScanResults GetResultsForQueryQroup(string sessionID, long scanId, long queryGroupId)
 	{
         log.Debug("[CxPortalWebService]- Inside GetResultsForQueryQroup");
@@ -104,10 +185,16 @@ public class CxPortalWebService
 		return result;
 	}
 	[WebMethod()]
-	public CxWSResponsePivotTable GetPivotData(string SessionID, PivotViewClientType viewType)
+	public CxWSBasicRepsonse SaveSubsetResults(string sessionId, long projectId, long ScanId, long[] pathIds, string comments)
+	{
+		CxWSBasicRepsonse result = WebServiceProxy.SaveSubsetResults(sessionId, projectId, ScanId, pathIds, comments);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponsePivotTable GetPivotData(string SessionID, CxPivotDataRequest PivotParams)
 	{
         log.Debug("[CxPortalWebService]- Inside GetPivotData");
-		CxWSResponsePivotTable result = WebServiceProxy.GetPivotData(SessionID, viewType);
+		CxWSResponsePivotTable result = WebServiceProxy.GetPivotData(SessionID, PivotParams);
 		return result;
 	}
 	[WebMethod()]
@@ -243,6 +330,36 @@ byte[] importedFile)
 		return result;
 	}
 	[WebMethod()]
+	public CxWSCreateReportResponse CreateScanReport(string SessionID, CxWSReport Report)
+	{
+		CxWSCreateReportResponse result = WebServiceProxy.CreateScanReport(SessionID, Report);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSReportStatusResponse GetScanReportStatus(string SessionID, long ReportID)
+	{
+		CxWSReportStatusResponse result = WebServiceProxy.GetScanReportStatus(SessionID, ReportID);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponseScanResults GetScanReport(string SessionID, long ReportID)
+	{
+		CxWSResponseScanResults result = WebServiceProxy.GetScanReport(SessionID, ReportID);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSBasicRepsonse SaveUserPreferences(string SessionID, CxUserPreferences[] Preferences)
+	{
+		CxWSBasicRepsonse result = WebServiceProxy.SaveUserPreferences(SessionID, Preferences);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSUserPreferencesResponse GetUserPreferences(string SessionID)
+	{
+		CxWSUserPreferencesResponse result = WebServiceProxy.GetUserPreferences(SessionID);
+		return result;
+	}
+	[WebMethod()]
 	public CxWSResponseProjectsScansList GetProjectsWithScans(string sessionId)
 	{
         log.Debug("[CxPortalWebService]- Inside GetProjectsWithScans");
@@ -318,6 +435,12 @@ byte[] importedFile)
 	public CxWSBasicRepsonse Logout(string sessionID)
 	{
 		CxWSBasicRepsonse result = WebServiceProxy.Logout(sessionID);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponseLoginData LoginBySID(string sessionID)
+	{
+		CxWSResponseLoginData result = WebServiceProxy.LoginBySID(sessionID);
 		return result;
 	}
 	[WebMethod()]
@@ -464,9 +587,9 @@ byte[] importedFile)
 		return result;
 	}
 	[WebMethod()]
-	public CxWSResponsProjectProperties GetProjectProperties(string sessionID, long projectID)
+	public CxWSResponsProjectProperties GetProjectProperties(string sessionID, long projectID, ScanType scanType)
 	{
-		CxWSResponsProjectProperties result = WebServiceProxy.GetProjectProperties(sessionID, projectID);
+		CxWSResponsProjectProperties result = WebServiceProxy.GetProjectProperties(sessionID, projectID, scanType);
 		return result;
 	}
 	[WebMethod()]
@@ -482,9 +605,9 @@ byte[] importedFile)
 		return result;
 	}
 	[WebMethod()]
-	public CxWSResponsProjectChartData GetProjectCharts(string sessionID, long projectID)
+	public CxWSResponsProjectChartData GetProjectCharts(string sessionID, long projectID, ScanType scanType)
 	{
-		CxWSResponsProjectChartData result = WebServiceProxy.GetProjectCharts(sessionID, projectID);
+		CxWSResponsProjectChartData result = WebServiceProxy.GetProjectCharts(sessionID, projectID, scanType);
 		return result;
 	}
 	[WebMethod()]
@@ -711,9 +834,9 @@ byte[] importedFile)
 		return result;
 	}
 	[WebMethod()]
-	public CxWSBasicRepsonse ForgotPassword(string loginUrl, string email)
+	public CxWSBasicRepsonse ForgotPassword(string loginUrl, string userName, string email)
 	{
-		CxWSBasicRepsonse result = WebServiceProxy.ForgotPassword(loginUrl, email);
+		CxWSBasicRepsonse result = WebServiceProxy.ForgotPassword(loginUrl, userName, email);
 		return result;
 	}
 	[WebMethod()]
@@ -813,9 +936,9 @@ byte[] importedFile)
 		return result;
 	}
 	[WebMethod()]
-	public CxWSBasicRepsonse AddNewUser(string sessionID, UserData userData)
+	public CxWSBasicRepsonse AddNewUser(string sessionID, UserData userData, CxUserTypes userType)
 	{
-		CxWSBasicRepsonse result = WebServiceProxy.AddNewUser(sessionID, userData);
+		CxWSBasicRepsonse result = WebServiceProxy.AddNewUser(sessionID, userData, userType);
 		return result;
 	}
 	[WebMethod()]
@@ -864,6 +987,12 @@ byte[] importedFile)
 	public CxWSBasicRepsonse IsValidUserName(string sessionID, string username)
 	{
 		CxWSBasicRepsonse result = WebServiceProxy.IsValidUserName(sessionID, username);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSBasicRepsonse IsValidEmail(string email)
+	{
+		CxWSBasicRepsonse result = WebServiceProxy.IsValidEmail(email);
 		return result;
 	}
 	[WebMethod()]
@@ -1021,86 +1150,5 @@ byte[] importedFile)
 	{
 		CxWSBasicRepsonse result = WebServiceProxy.VerifySupportedVersion(clientType, clientVersion, APIVersion);
 		return result;
-	}
-	[WebMethod()]
-	public CxWSResponseInstallationSettings GetInstallationSettings(string sessionID)
-	{
-		CxWSResponseInstallationSettings result = WebServiceProxy.GetInstallationSettings(sessionID);
-		return result;
-	}
-	[WebMethod()]
-	public CxWSResponsePresetList GetPresetList(string SessionID)
-	{
-		CxWSResponsePresetList result = WebServiceProxy.GetPresetList(SessionID);
-		return result;
-	}
-	[WebMethod()]
-	public CxQueryCollectionResponse GetQueryCollection(string sessionId)
-	{
-		CxQueryCollectionResponse result = WebServiceProxy.GetQueryCollection(sessionId);
-		return result;
-	}
-	[WebMethod()]
-	public CxWSResponsePresetDetails GetPresetDetails(string sessionId, long id)
-	{
-		CxWSResponsePresetDetails result = WebServiceProxy.GetPresetDetails(sessionId, id);
-		return result;
-	}
-	[WebMethod()]
-	public CxWSResponsePresetDetails CreateNewPreset(string sessionId, CxPresetDetails presrt)
-	{
-		CxWSResponsePresetDetails result = WebServiceProxy.CreateNewPreset(sessionId, presrt);
-		return result;
-	}
-	[WebMethod()]
-	public CxWSResponsePresetDetails UpdatePreset(string sessionId, CxPresetDetails presrt)
-	{
-		CxWSResponsePresetDetails result = WebServiceProxy.UpdatePreset(sessionId, presrt);
-		return result;
-	}
-	[WebMethod()]
-	public CxWSBasicRepsonse DeletePreset(string sessionId, long id)
-	{
-		CxWSBasicRepsonse result = WebServiceProxy.DeletePreset(sessionId, id);
-		return result;
-	}
-	[WebMethod()]
-	public CxWSBasicRepsonse IsValidPresetName(string sessionID, string presetName)
-	{
-		CxWSBasicRepsonse result = WebServiceProxy.IsValidPresetName(sessionID, presetName);
-		return result;
-	}
-	[WebMethod()]
-	public CxWSResponceQuerisForScan GetQueriesForScan(string sessionID, long scanId)
-	{
-		CxWSResponceQuerisForScan result = WebServiceProxy.GetQueriesForScan(sessionID, scanId);
-        log.Debug("[CxPortalWebService]- Inside GetQueriesForScan");
-        if (result != null && result.Queries != null)
-        {
-            new CxTeamMentor().TMFilterFor_CxWSResponceQuerisForScan(result);
-        }
-        return result;
-		return result;
-	}
-	[WebMethod()]
-	public CxWSResponceQuerisForScanAndId GetQueriesForScanByRunId(string sessionID, string runId)
-	{
-        log.Debug("[CxPortalWebService]- Inside GetQueriesForScanByRunId");
-		CxWSResponceQuerisForScanAndId result = WebServiceProxy.GetQueriesForScanByRunId(sessionID, runId);
-        if (result!=null && result.Queries!=null)
-	    {
-            new CxTeamMentor().TMFilterFor_CxWSResponceQuerisForScanAndId(result);
-	    }
-	    return result;
-	}
-	[WebMethod()]
-	public CxWSResponceScanResults GetResultsForQuery(string sessionID, long scanId, long queryId)
-	{
-		CxWSResponceScanResults result = WebServiceProxy.GetResultsForQuery(sessionID, scanId, queryId);
-        //if (result != null && result.Results != null)
-        //{
-        //    new CxTeamMentor().TMFilterFor_CxWSResponceScanResults(result);
-        //}
-	    return result;
 	}
 }
