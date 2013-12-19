@@ -52,5 +52,6 @@ C:\TeamMentor\TeamMentor.Checkmarx.AllVersions\TeamMentor_Checkmarx\TeamMentor.C
 C:\TeamMentor\TeamMentor.Checkmarx.AllVersions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx\bin\System.Web.WebPages.xml
 C:\TeamMentor\TeamMentor.Checkmarx.AllVersions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx\bin\System.Web.WebPages.Deployment.xml
 C:\TeamMentor\TeamMentor.Checkmarx.AllVersions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx\bin\System.Web.WebPages.Razor.xml
+C:\TeamMentor\TeamMentor.Checkmarx.AllVersions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx\obj\Release\TeamMentor.Checkmarx.csprojResolveAssemblyReference.cache
 C:\TeamMentor\TeamMentor.Checkmarx.AllVersions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx\obj\Release\TeamMentor.Checkmarx.dll
 C:\TeamMentor\TeamMentor.Checkmarx.AllVersions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx\obj\Release\TeamMentor.Checkmarx.pdb
