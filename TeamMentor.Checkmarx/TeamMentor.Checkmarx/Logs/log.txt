@@ -1,0 +1,658 @@
+2013-12-05 12:35:46,821 [12] DEBUG TeamMentor.Checkmarx.MvcApplication [(null)] – Starting application.
+2013-12-05 15:40:48,978 [12] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-05 15:40:51,887 [12] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-05 21:02:32,831 [12] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-05 21:02:32,842 [12] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-06 09:28:59,187 [12] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-06 09:29:00,610 [12] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-06 09:31:24,519 [12] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-06 09:31:24,530 [12] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-06 09:37:13,836 [12] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-06 09:37:13,848 [12] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-06 10:03:06,086 [12] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-06 10:03:06,097 [12] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-06 10:03:38,902 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-06 10:03:38,914 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-06 10:06:46,772 [12] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-06 10:06:46,783 [12] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-06 10:09:38,837 [12] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-06 10:09:38,849 [12] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-06 10:15:15,808 [12] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-06 10:15:15,819 [12] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-06 10:26:42,222 [12] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-06 10:26:42,233 [12] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-06 10:29:58,032 [124] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:30:00,936 [124] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:32:08,821 [143] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:32:08,822 [143] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:32:48,476 [124] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:32:48,477 [124] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:35:17,771 [130] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:35:17,772 [130] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:35:29,289 [124] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:35:29,289 [124] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:35:31,418 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:35:31,419 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:35:40,141 [139] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:35:40,142 [139] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:35:41,389 [124] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:35:41,389 [124] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:35:41,390 [124] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetConfigurationSetList
+2013-12-06 10:35:42,822 [130] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:35:42,823 [130] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:36:01,117 [139] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:36:01,128 [139] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:36:21,783 [124] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:36:21,783 [124] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:36:42,966 [130] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:36:42,967 [130] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:37:04,582 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:37:04,582 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:37:26,895 [139] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:37:26,896 [139] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:37:47,800 [130] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:37:47,801 [130] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:38:08,598 [139] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:38:08,599 [139] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:38:29,691 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:38:29,692 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:38:50,881 [124] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:38:50,881 [124] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:39:11,486 [130] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:39:11,487 [130] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:39:33,325 [139] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:39:33,326 [139] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:39:54,470 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:39:54,471 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:40:15,835 [139] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:40:15,836 [139] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:40:36,847 [124] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:40:36,848 [124] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:40:58,313 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:40:58,314 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:41:20,166 [124] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:41:20,167 [124] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:41:41,879 [130] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:41:41,880 [130] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:42:02,735 [139] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:42:02,736 [139] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:42:24,068 [124] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:42:24,069 [124] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:42:45,199 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:42:45,200 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:43:06,344 [139] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:43:06,345 [139] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:43:27,856 [139] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:43:27,857 [139] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:43:49,579 [124] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:43:49,580 [124] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:44:10,231 [139] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:44:10,231 [139] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:44:10,232 [139] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetQueriesForScanByRunId
+2013-12-06 10:44:13,673 [139] DEBUG CxTeamMentor [(null)] – Inside TMFilterFor_CxWSResponceQuerisForScanAndId 
+2013-12-06 10:44:13,809 [130] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:44:13,810 [130] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:44:14,600 [139] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:44:14,601 [139] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:44:16,550 [130] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:44:16,550 [130] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:44:19,395 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:44:19,395 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:44:21,852 [130] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:44:21,852 [130] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:44:25,744 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:44:25,744 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:44:27,164 [139] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:44:27,165 [139] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:44:27,820 [130] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:44:27,821 [130] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:47:10,476 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:47:10,477 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:47:10,477 [131] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetProjectsDisplayData
+2013-12-06 10:47:39,012 [130] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:47:39,013 [130] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:47:39,014 [130] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetScansDisplayData
+2013-12-06 10:47:40,445 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:47:40,446 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:47:44,719 [131] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetQueriesForScan
+2013-12-06 10:47:44,725 [131] DEBUG CxTeamMentor [(null)] – Inside TMFilterFor_CxWSResponceQuerisForScan 
+2013-12-06 10:47:44,736 [130] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:47:44,736 [130] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:47:45,283 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:47:45,284 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:50:21,212 [12] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-06 10:50:21,223 [12] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-06 10:50:50,141 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:50:50,142 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:50:53,136 [131] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetScansDisplayData
+2013-12-06 10:50:54,608 [124] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:50:54,609 [124] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:50:58,943 [124] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetQueriesForScan
+2013-12-06 10:50:58,978 [124] DEBUG CxTeamMentor [(null)] – Inside TMFilterFor_CxWSResponceQuerisForScan 
+2013-12-06 10:50:58,987 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:50:58,988 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:50:59,964 [141] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:50:59,965 [141] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:54:03,687 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:54:03,688 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:54:14,187 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:54:14,188 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:54:15,104 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:54:15,105 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:54:15,106 [142] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetConfigurationSetList
+2013-12-06 10:54:16,275 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:54:16,276 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:54:25,446 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:54:25,446 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:54:46,608 [124] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:54:46,608 [124] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:55:07,805 [124] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:55:07,805 [124] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:55:29,196 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:55:29,197 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:55:50,393 [124] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:55:50,394 [124] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:56:12,213 [141] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:56:12,213 [141] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:56:33,518 [124] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:56:33,519 [124] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:56:54,903 [124] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:56:54,904 [124] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:57:16,406 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:57:16,408 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:57:37,584 [141] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:57:37,585 [141] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:57:59,702 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:57:59,703 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:58:20,425 [124] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:58:20,426 [124] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:58:41,232 [141] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:58:41,232 [141] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:59:02,089 [141] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:59:02,090 [141] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:59:23,385 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:59:23,386 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 10:59:44,667 [141] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 10:59:44,667 [141] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:00:06,503 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:00:06,504 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:00:27,868 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:00:27,869 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:00:50,059 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:00:50,060 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:01:11,367 [124] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:01:11,368 [124] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:01:11,368 [124] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetQueriesForScanByRunId
+2013-12-06 11:01:14,413 [124] DEBUG CxTeamMentor [(null)] – Inside TMFilterFor_CxWSResponceQuerisForScanAndId 
+2013-12-06 11:01:14,540 [141] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:01:14,540 [141] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:01:15,087 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:01:15,088 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:01:16,869 [141] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:01:16,869 [141] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:01:19,278 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:01:19,278 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:01:21,158 [124] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:01:21,159 [124] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:01:23,069 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:01:23,070 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:01:25,972 [124] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:01:25,973 [124] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:01:26,165 [141] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:01:26,165 [141] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:13:10,909 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:13:10,910 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:13:20,502 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:13:20,503 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:13:21,289 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:13:21,290 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:13:21,291 [116] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetConfigurationSetList
+2013-12-06 11:13:22,301 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:13:22,302 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:16:49,406 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:16:49,410 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:17:01,497 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:17:01,498 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:17:01,758 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:17:01,759 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:17:01,759 [131] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetConfigurationSetList
+2013-12-06 11:17:02,611 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:17:02,612 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:18:01,187 [141] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:18:01,188 [141] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:18:03,257 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:18:03,257 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:18:43,377 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:18:43,378 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:18:44,459 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:18:44,460 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:18:44,460 [142] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetConfigurationSetList
+2013-12-06 11:18:45,609 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:18:45,610 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:18:51,365 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:18:51,366 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:19:11,759 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:19:11,760 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:19:33,260 [141] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:19:33,261 [141] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:19:54,198 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:19:54,199 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:20:14,975 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:20:14,976 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:20:36,050 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:20:36,051 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:20:56,921 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:20:56,922 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:21:18,537 [141] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:21:18,538 [141] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:21:39,541 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:21:39,542 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:22:00,736 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:22:00,737 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:22:21,417 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:22:21,418 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:22:21,419 [131] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetQueriesForScanByRunId
+2013-12-06 11:22:24,284 [131] DEBUG CxTeamMentor [(null)] – Inside TMFilterFor_CxWSResponceQuerisForScanAndId 
+2013-12-06 11:22:24,288 [131] DEBUG CxTeamMentor_Mappings [(null)] – Loading XML mapping...
+2013-12-06 11:22:24,290 [131] DEBUG CxTeamMentor_Mappings [(null)] – Using TeamMentor Vulnerability library located at http://checkmarx.teammentor.net
+2013-12-06 11:22:24,291 [131] DEBUG CxTeamMentor_Mappings [(null)] – Loading XML File : C:\TeamMentor\AllVersions\TeamMentor.Checkmarx\TeamMentor.Checkmarx\App_Data\CheckMarxMapping.xml
+2013-12-06 11:22:24,406 [131] DEBUG CxTeamMentor_Mappings [(null)] – [LoadData] 114 mapping elements found
+2013-12-06 11:22:24,529 [141] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:22:24,530 [141] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:22:25,064 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:22:25,065 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:22:26,745 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:22:26,745 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:22:29,305 [131] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:22:29,306 [131] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:22:33,727 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:22:33,728 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:22:36,989 [141] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:22:36,990 [141] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:22:37,199 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:22:37,199 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:24:34,218 [117] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:24:34,219 [117] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:24:34,220 [117] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetResultPathsForQuery
+2013-12-06 11:24:35,666 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:24:35,667 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:24:36,606 [141] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:24:36,607 [141] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:24:36,607 [141] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetProjectAssignUsers
+2013-12-06 11:24:38,235 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:24:38,236 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:24:40,855 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:24:40,856 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:24:40,856 [142] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetResultPath
+2013-12-06 11:25:12,867 [141] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:25:12,868 [141] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:25:12,868 [141] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetResultPathsForQuery
+2013-12-06 11:25:14,123 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:25:14,123 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:25:14,124 [116] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetProjectAssignUsers
+2013-12-06 11:25:15,715 [141] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:25:15,716 [141] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:25:17,943 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:25:17,943 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:25:17,944 [116] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetResultPath
+2013-12-06 11:25:20,331 [141] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 11:25:20,332 [141] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 11:25:20,333 [141] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetQueryDescription
+2013-12-06 11:25:25,365 [141] DEBUG CxTeamMentor [(null)] – Inside TMFilterFor_CxWSResponseQueryDescription method...
+2013-12-06 11:25:25,366 [141] DEBUG CxTeamMentor [(null)] – Getting QueryDescription for CWE 1000468 
+2013-12-06 11:25:25,367 [141] DEBUG CxTeamMentor [(null)] – HTML reponse <html><head><meta http-equiv="refresh" content="0;url=http://checkmarx.teammentor.net/article/ee22e5e0-0953-4276-b0e6-955becda5ee8"></head></html>
+2013-12-06 12:13:36,629 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:13:36,630 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:13:36,631 [116] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetProjectsDisplayData
+2013-12-06 12:13:59,486 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:13:59,487 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:13:59,488 [116] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetProjectsDisplayData
+2013-12-06 12:14:56,913 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:14:56,913 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:15:06,891 [117] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:15:06,892 [117] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:15:18,636 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:15:18,637 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:15:18,637 [142] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetProjectsDisplayData
+2013-12-06 12:15:30,954 [141] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:15:30,955 [141] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:15:30,956 [141] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetScansDisplayData
+2013-12-06 12:15:32,278 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:15:32,279 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:15:36,352 [116] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetQueriesForScan
+2013-12-06 12:15:36,356 [116] DEBUG CxTeamMentor [(null)] – Inside TMFilterFor_CxWSResponceQuerisForScan 
+2013-12-06 12:15:36,364 [141] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:15:36,364 [141] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:15:37,191 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:15:37,192 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:15:39,129 [141] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:15:39,130 [141] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:15:41,993 [117] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:15:41,994 [117] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:15:45,175 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:15:45,175 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:15:47,419 [117] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:15:47,420 [117] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:15:49,877 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:15:49,878 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:15:51,461 [141] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:15:51,462 [141] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:15:52,186 [117] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:15:52,187 [117] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:15:52,187 [117] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetResultPathsForQuery
+2013-12-06 12:15:54,149 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:15:54,149 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:15:55,547 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:15:55,548 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:15:55,548 [116] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetProjectAssignUsers
+2013-12-06 12:15:56,107 [117] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:15:56,108 [117] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:16:01,062 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:16:01,063 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:16:01,685 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:16:01,686 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:16:03,395 [141] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:16:03,396 [141] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:16:04,162 [117] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:16:04,163 [117] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:16:04,164 [117] DEBUG CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetResultPath
+2013-12-06 12:16:05,172 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:16:05,173 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:16:06,971 [142] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:16:06,972 [142] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 12:16:07,272 [116] DEBUG CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 12:16:07,273 [116] DEBUG CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-02.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:13:27,348 [144] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-06 14:13:27,359 [144] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-06 14:14:36,688 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-06 14:14:36,702 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-06 14:19:57,731 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-06 14:19:57,742 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-06 14:21:30,910 [6] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:21:30,911 [6] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:22:15,570 [12] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:22:15,570 [12] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:22:44,050 [8] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:22:44,051 [8] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:22:57,264 [14] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:22:57,265 [14] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:23:08,490 [8] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:23:08,491 [8] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:23:09,470 [16] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:23:09,470 [16] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:23:25,209 [8] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:23:25,210 [8] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:23:25,839 [7] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:23:25,840 [7] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:23:25,841 [7] DEBUG Checkmarx626.CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetConfigurationSetList
+2013-12-06 14:23:26,636 [8] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:23:26,637 [8] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:23:32,541 [16] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:23:32,542 [16] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:23:53,200 [9] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:23:53,201 [9] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:24:13,809 [8] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:24:13,810 [8] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:24:34,451 [9] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:24:34,452 [9] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:24:55,088 [17] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:24:55,088 [17] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:25:15,682 [8] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:25:15,683 [8] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:25:36,452 [8] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:25:36,453 [8] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:25:36,454 [8] DEBUG Checkmarx626.CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetQueriesForScanByRunId
+2013-12-06 14:25:40,774 [8] DEBUG Checkmarx626.CxTeamMentor [(null)] – Inside TMFilterFor_CxWSResponceQuerisForScanAndId 
+2013-12-06 14:25:40,902 [7] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:25:40,903 [7] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:25:41,481 [18] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:25:41,482 [18] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:25:42,648 [18] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:25:42,649 [18] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:25:43,935 [8] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:25:43,936 [8] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:25:45,003 [8] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:25:45,004 [8] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:25:46,081 [7] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:25:46,083 [7] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:25:46,638 [14] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:25:46,639 [14] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:28:08,920 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-06 14:28:08,931 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-06 14:35:27,268 [15] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:35:27,269 [15] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:35:42,855 [16] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:35:42,856 [16] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:35:43,806 [19] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:35:43,807 [19] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:37:50,053 [24] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:37:50,054 [24] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:37:50,961 [12] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:37:50,961 [12] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:37:50,962 [12] DEBUG Checkmarx626.CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetConfigurationSetList
+2013-12-06 14:37:53,213 [23] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:37:53,214 [23] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:38:19,647 [21] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:38:19,648 [21] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:38:40,270 [6] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:38:40,270 [6] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:39:01,344 [6] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:39:01,344 [6] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:39:22,224 [18] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:39:22,224 [18] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:39:42,947 [18] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:39:42,947 [18] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:40:03,689 [6] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:40:03,690 [6] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:40:24,735 [10] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:40:24,735 [10] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:40:45,411 [10] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:40:45,412 [10] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:41:06,034 [16] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:41:06,035 [16] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:41:26,958 [16] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:41:26,959 [16] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:41:47,804 [5] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:41:47,805 [5] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:42:08,499 [15] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:42:08,499 [15] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:42:29,324 [15] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:42:29,325 [15] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:42:50,256 [15] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:42:50,257 [15] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:43:11,081 [9] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:43:11,082 [9] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:43:31,989 [17] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:43:31,990 [17] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:43:52,892 [17] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:43:52,893 [17] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:44:13,497 [17] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:44:13,498 [17] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:44:34,094 [17] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:44:34,094 [17] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:44:55,139 [8] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:44:55,140 [8] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:45:15,777 [25] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:45:15,777 [25] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:45:36,604 [11] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:45:36,605 [11] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:45:57,555 [11] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:45:57,556 [11] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:46:18,771 [11] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:46:18,772 [11] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:46:39,684 [19] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:46:39,684 [19] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:47:00,416 [19] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:47:00,417 [19] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:47:21,086 [15] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:47:21,087 [15] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:47:41,973 [27] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:47:41,973 [27] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:48:02,804 [26] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:48:02,805 [26] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:48:23,800 [27] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:48:23,801 [27] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:48:44,719 [29] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:48:44,719 [29] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:49:05,317 [28] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:49:05,318 [28] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:49:25,979 [30] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:49:25,980 [30] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:49:46,566 [34] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:49:46,567 [34] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:50:07,314 [33] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:50:07,315 [33] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:50:28,051 [33] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:50:28,052 [33] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:50:48,931 [31] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:50:48,932 [31] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:51:09,547 [33] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:51:09,548 [33] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:51:30,158 [34] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:51:30,158 [34] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:51:51,280 [37] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:51:51,281 [37] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:52:12,084 [31] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:52:12,085 [31] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:52:32,704 [36] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:52:32,705 [36] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:52:53,358 [37] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:52:53,359 [37] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:52:53,360 [37] DEBUG Checkmarx626.CxPortalWebService [(null)] – [CxPortalWebService]- Inside GetQueriesForScanByRunId
+2013-12-06 14:52:57,675 [37] DEBUG Checkmarx626.CxTeamMentor [(null)] – Inside TMFilterFor_CxWSResponceQuerisForScanAndId 
+2013-12-06 14:52:57,679 [37] DEBUG CxTeamMentor_Mappings [(null)] – Loading XML mapping...
+2013-12-06 14:52:57,680 [37] DEBUG CxTeamMentor_Mappings [(null)] – Using TeamMentor Vulnerability library located at http://checkmarx.teammentor.net
+2013-12-06 14:52:57,681 [37] DEBUG CxTeamMentor_Mappings [(null)] – Loading XML File : C:\TeamMentor\AllVersions\TeamMentor.Checkmarx\TeamMentor.Checkmarx\App_Data\CheckMarxMapping.xml
+2013-12-06 14:52:57,756 [37] DEBUG CxTeamMentor_Mappings [(null)] – [LoadData] 114 mapping elements found
+2013-12-06 14:52:57,885 [36] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:52:57,886 [36] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:52:58,431 [31] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:52:58,431 [31] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:52:59,539 [34] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:52:59,539 [34] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:53:00,818 [31] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:53:00,819 [31] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:53:02,062 [36] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:53:02,062 [36] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:53:03,149 [31] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:53:03,149 [31] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:53:04,417 [36] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:53:04,418 [36] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:53:05,478 [37] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:53:05,479 [37] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:53:06,817 [37] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:53:06,818 [37] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 14:53:07,356 [31] DEBUG Checkmarx626.CxPortalWebService [(null)] – WebService proxy constructor.Loading user data
+2013-12-06 14:53:07,357 [31] DEBUG Checkmarx626.CxPortalWebService [(null)] – Checkmarx WebService proxy is http://tm-dev-checkmarx-01.teammentor.net/CxWebInterface/CxWebService.asmx
+2013-12-06 17:05:46,063 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-06 17:05:46,076 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-08 21:07:19,508 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-08 21:07:19,543 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-09 07:30:13,179 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-09 07:30:13,288 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-09 07:36:13,839 [8] DEBUG Checkmarx712.CxWSResolver [(null)] – Checkmarx WebService proxy is http://174.129.243.209/CxWebInterface/CxWSResolver.asmx
+2013-12-09 07:36:13,976 [8] DEBUG Checkmarx712.CxWSResolver [(null)] – Inside GetWebServiceUrl
+2013-12-09 07:37:00,996 [11] DEBUG Checkmarx712.CxWSResolver [(null)] – Checkmarx WebService proxy is http://174.129.243.209/CxWebInterface/CxWSResolver.asmx
+2013-12-09 07:39:41,587 [11] DEBUG Checkmarx712.CxWSResolver [(null)] – Inside GetWebServiceUrl
+2013-12-09 07:40:30,556 [11] DEBUG Checkmarx712.CxWSResolver [(null)] – Inside GetWebServiceUrl
+2013-12-09 07:44:39,727 [8] DEBUG Checkmarx712.CxWSResolver [(null)] – Checkmarx WebService proxy is http://174.129.243.209/CxWebInterface/CxWSResolver.asmx
+2013-12-09 07:44:39,729 [8] DEBUG Checkmarx712.CxWSResolver [(null)] – Inside GetWebServiceUrl
+2013-12-09 07:44:40,320 [8] DEBUG Checkmarx712.CxWSResolver [(null)] – Original url  http://174.129.243.209/cxwebinterface/Audit/CxAuditWebService.asmx
+2013-12-09 07:44:58,639 [11] DEBUG Checkmarx712.CxWSResolver [(null)] – Checkmarx WebService proxy is http://174.129.243.209/CxWebInterface/CxWSResolver.asmx
+2013-12-09 07:45:00,145 [11] DEBUG Checkmarx712.CxWSResolver [(null)] – Inside GetWebServiceUrl
+2013-12-09 07:45:01,776 [11] DEBUG Checkmarx712.CxWSResolver [(null)] – Original url  http://174.129.243.209/cxwebinterface/Audit/CxAuditWebService.asmx
+2013-12-09 07:54:59,197 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-09 07:54:59,209 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-09 07:55:52,570 [30] DEBUG Checkmarx712.CxWSResolver [(null)] – Checkmarx WebService proxy is http://174.129.243.209/CxWebInterface/CxWSResolver.asmx
+2013-12-09 07:55:52,582 [30] DEBUG Checkmarx712.CxWSResolver [(null)] – Inside GetWebServiceUrl
+2013-12-09 07:55:53,176 [30] DEBUG Checkmarx712.CxWSResolver [(null)] – Original url  http://174.129.243.209/cxwebinterface/Audit/CxAuditWebService.asmx
+2013-12-09 07:56:24,472 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-09 07:56:24,483 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-09 07:56:54,346 [30] DEBUG Checkmarx712.CxWSResolver [(null)] – Checkmarx WebService proxy is http://174.129.243.209/CxWebInterface/CxWSResolver.asmx
+2013-12-09 07:56:57,002 [30] DEBUG Checkmarx712.CxWSResolver [(null)] – Inside GetWebServiceUrl
+2013-12-09 07:57:15,418 [30] DEBUG Checkmarx712.CxWSResolver [(null)] – Original url  http://174.129.243.209/cxwebinterface/Audit/CxAuditWebService.asmx
+2013-12-09 08:06:25,148 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-09 08:06:25,160 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-09 08:06:43,352 [21] DEBUG Checkmarx712.CxWSResolver [(null)] – Checkmarx WebService proxy is http://174.129.243.209/CxWebInterface/CxWSResolver.asmx
+2013-12-09 08:08:55,474 [21] DEBUG Checkmarx712.CxWSResolver [(null)] – Inside GetWebServiceUrl
+2013-12-09 08:08:56,259 [21] DEBUG Checkmarx712.CxWSResolver [(null)] – Original url  http://174.129.243.209/cxwebinterface/Audit/CxAuditWebService.asmx
+2013-12-09 08:22:47,157 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-09 08:22:47,168 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-09 08:23:38,928 [8] DEBUG Checkmarx712.CxWSResolver [(null)] – Checkmarx WebService proxy is http://174.129.243.209/CxWebInterface/CxWSResolver.asmx
+2013-12-09 08:23:42,319 [8] DEBUG Checkmarx712.CxWSResolver [(null)] – Inside GetWebServiceUrl
+2013-12-09 08:23:47,217 [8] DEBUG Checkmarx712.CxWSResolver [(null)] – Original url  http://174.129.243.209/cxwebinterface/Audit/CxAuditWebService.asmx
+2013-12-09 08:25:03,701 [8] DEBUG Checkmarx712.CxWSResolver [(null)] – New URL http://localhost/CxWebInterface/Audit/CxAuditWebService.asmx
+2013-12-09 08:27:34,113 [12] DEBUG Checkmarx712.CxWSResolver [(null)] – Checkmarx WebService proxy is http://174.129.243.209/CxWebInterface/CxWSResolver.asmx
+2013-12-09 08:27:34,119 [12] DEBUG Checkmarx712.CxWSResolver [(null)] – Inside GetWebServiceUrl
+2013-12-09 08:27:34,827 [12] DEBUG Checkmarx712.CxWSResolver [(null)] – Original url  http://174.129.243.209/cxwebinterface/Audit/CxAuditWebService.asmx
+2013-12-09 08:27:34,828 [12] DEBUG Checkmarx712.CxWSResolver [(null)] – New URL http://localhost/CxWebInterface/Audit/CxAuditWebService.asmx
+2013-12-09 08:28:21,203 [13] DEBUG Checkmarx712.CxWSResolver [(null)] – Checkmarx WebService proxy is http://174.129.243.209/CxWebInterface/CxWSResolver.asmx
+2013-12-09 08:31:43,329 [13] DEBUG Checkmarx712.CxWSResolver [(null)] – Inside GetWebServiceUrl
+2013-12-09 08:31:44,035 [13] DEBUG Checkmarx712.CxWSResolver [(null)] – Original url  http://174.129.243.209/cxwebinterface/Audit/CxAuditWebService.asmx
+2013-12-09 08:31:44,036 [13] DEBUG Checkmarx712.CxWSResolver [(null)] – New URL http://localhost/CxWebInterface/Audit/CxAuditWebService.asmx
+2013-12-09 08:37:49,441 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-09 08:37:49,452 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-09 08:38:06,189 [25] DEBUG Checkmarx712.CxWSResolver [(null)] – Checkmarx WebService proxy is http://174.129.243.209/CxWebInterface/CxWSResolver.asmx
+2013-12-09 08:38:09,160 [25] DEBUG Checkmarx712.CxWSResolver [(null)] – Inside GetWebServiceUrl
+2013-12-09 08:38:14,008 [25] DEBUG Checkmarx712.CxWSResolver [(null)] – Original url  http://174.129.243.209/cxwebinterface/Audit/CxAuditWebService.asmx
+2013-12-09 08:38:58,961 [25] DEBUG Checkmarx712.CxWSResolver [(null)] – New URL http://localhost/12068/CxWebInterface/Audit/CxAuditWebService.asmx
+2013-12-09 08:40:44,719 [21] DEBUG Checkmarx712.CxWSResolver [(null)] – Checkmarx WebService proxy is http://174.129.243.209/CxWebInterface/CxWSResolver.asmx
+2013-12-09 08:40:44,720 [21] DEBUG Checkmarx712.CxWSResolver [(null)] – Inside GetWebServiceUrl
+2013-12-09 08:40:49,060 [21] DEBUG Checkmarx712.CxWSResolver [(null)] – Original url  http://174.129.243.209/cxwebinterface/Audit/CxAuditWebService.asmx
+2013-12-09 08:40:50,837 [21] DEBUG Checkmarx712.CxWSResolver [(null)] – New URL http://localhost/12068/CxWebInterface/Audit/CxAuditWebService.asmx
+2013-12-09 08:41:42,883 [22] DEBUG Checkmarx712.CxWSResolver [(null)] – Checkmarx WebService proxy is http://174.129.243.209/CxWebInterface/CxWSResolver.asmx
+2013-12-09 08:41:42,885 [22] DEBUG Checkmarx712.CxWSResolver [(null)] – Inside GetWebServiceUrl
+2013-12-09 08:41:43,523 [22] DEBUG Checkmarx712.CxWSResolver [(null)] – Original url  http://174.129.243.209/cxwebinterface/Audit/CxAuditWebService.asmx
+2013-12-09 08:41:49,848 [22] DEBUG Checkmarx712.CxWSResolver [(null)] – New URL http://localhost/12068/CxWebInterface/Audit/CxAuditWebService.asmx
+2013-12-09 08:42:47,895 [14] DEBUG Checkmarx712.CxWSResolver [(null)] – Checkmarx WebService proxy is http://174.129.243.209/CxWebInterface/CxWSResolver.asmx
+2013-12-09 08:42:47,896 [14] DEBUG Checkmarx712.CxWSResolver [(null)] – Inside GetWebServiceUrl
+2013-12-09 08:42:48,545 [14] DEBUG Checkmarx712.CxWSResolver [(null)] – Original url  http://174.129.243.209/cxwebinterface/Audit/CxAuditWebService.asmx
+2013-12-09 08:43:02,325 [14] DEBUG Checkmarx712.CxWSResolver [(null)] – New URL http://localhost/12068/CxWebInterface/Audit/CxAuditWebService.asmx
+2013-12-09 08:44:26,184 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-09 08:44:26,865 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-09 08:44:51,366 [7] DEBUG Checkmarx712.CxWSResolver [(null)] – Checkmarx WebService proxy is http://174.129.243.209/CxWebInterface/CxWSResolver.asmx
+2013-12-09 08:44:51,442 [7] DEBUG Checkmarx712.CxWSResolver [(null)] – Inside GetWebServiceUrl
+2013-12-09 08:44:52,041 [7] DEBUG Checkmarx712.CxWSResolver [(null)] – Original url  http://174.129.243.209/cxwebinterface/Audit/CxAuditWebService.asmx
+2013-12-09 08:46:09,395 [7] DEBUG Checkmarx712.CxWSResolver [(null)] – New URL http://localhost/12068/CxWebInterface/Audit/CxAuditWebService.asmx
+2013-12-09 08:47:01,119 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-09 08:47:01,131 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-09 08:47:22,710 [7] DEBUG Checkmarx712.CxWSResolver [(null)] – Checkmarx WebService proxy is http://174.129.243.209/CxWebInterface/CxWSResolver.asmx
+2013-12-09 08:47:22,784 [7] DEBUG Checkmarx712.CxWSResolver [(null)] – Inside GetWebServiceUrl
+2013-12-09 08:47:23,378 [7] DEBUG Checkmarx712.CxWSResolver [(null)] – Original url  http://174.129.243.209/cxwebinterface/Audit/CxAuditWebService.asmx
+2013-12-09 08:47:42,042 [7] DEBUG Checkmarx712.CxWSResolver [(null)] – New URL http://localhost/12068/CxWebInterface/Audit/CxAuditWebService.asmx
+2013-12-09 08:51:50,431 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-09 08:51:50,442 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-09 08:52:04,553 [12] DEBUG Checkmarx712.CxWSResolver [(null)] – Checkmarx WebService proxy is http://174.129.243.209/CxWebInterface/CxWSResolver.asmx
+2013-12-09 08:52:04,626 [12] DEBUG Checkmarx712.CxWSResolver [(null)] – Inside GetWebServiceUrl
+2013-12-09 08:52:05,219 [12] DEBUG Checkmarx712.CxWSResolver [(null)] – Original url  http://174.129.243.209/cxwebinterface/Audit/CxAuditWebService.asmx
+2013-12-09 08:52:05,220 [12] DEBUG Checkmarx712.CxWSResolver [(null)] – New URL http://localhost:12068/CxWebInterface/Audit/CxAuditWebService.asmx
+2013-12-09 23:20:37,406 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-09 23:20:37,438 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-10 04:39:33,310 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-10 04:39:33,337 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-10 04:42:57,105 [11] DEBUG Checkmarx712.CxWSResolver [(null)] – Checkmarx WebService proxy is http://174.129.243.209/CxWebInterface/CxWSResolver.asmx
+2013-12-10 04:42:57,200 [11] DEBUG Checkmarx712.CxWSResolver [(null)] – Inside GetWebServiceUrl
+2013-12-10 04:43:02,745 [11] DEBUG Checkmarx712.CxWSResolver [(null)] – Original url  http://174.129.243.209/cxwebinterface/VS/CxVSWebService.asmx
+2013-12-10 04:43:05,295 [11] DEBUG Checkmarx712.CxWSResolver [(null)] – New URL http://localhost:12068/CxWebInterface/VS/CxVSWebService.asmx
+2013-12-10 04:43:15,189 [11] DEBUG Checkmarx712.CxWSResolver [(null)] – Checkmarx WebService proxy is http://174.129.243.209/CxWebInterface/CxWSResolver.asmx
+2013-12-10 04:43:15,190 [11] DEBUG Checkmarx712.CxWSResolver [(null)] – Inside GetWebServiceUrl
+2013-12-10 04:43:17,875 [11] DEBUG Checkmarx712.CxWSResolver [(null)] – Original url  http://174.129.243.209/cxwebinterface/VS/CxVSWebService.asmx
+2013-12-10 04:43:21,203 [11] DEBUG Checkmarx712.CxWSResolver [(null)] – New URL http://localhost:12068/CxWebInterface/VS/CxVSWebService.asmx
+2013-12-10 04:46:57,600 [34] DEBUG Checkmarx712.CxWSResolver [(null)] – Checkmarx WebService proxy is http://174.129.243.209/CxWebInterface/CxWSResolver.asmx
+2013-12-10 04:46:57,602 [34] DEBUG Checkmarx712.CxWSResolver [(null)] – Inside GetWebServiceUrl
+2013-12-10 04:46:58,316 [34] DEBUG Checkmarx712.CxWSResolver [(null)] – Original url  http://174.129.243.209/cxwebinterface/VS/CxVSWebService.asmx
+2013-12-10 04:47:00,660 [34] DEBUG Checkmarx712.CxWSResolver [(null)] – New URL http://localhost:12068/CxWebInterface/VS/CxVSWebService.asmx
+2013-12-10 04:56:25,823 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-10 04:56:25,837 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-10 04:56:41,781 [39] DEBUG Checkmarx629.CxPortalWebService [(null)] – Original Visual Studio EndPoint located at http://174.129.243.209:80/CxWebInterface/VS/CxVSWebService.asmx
+2013-12-10 20:58:50,383 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-10 20:58:50,430 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-10 21:00:36,055 [8] DEBUG Checkmarx712Eclipse.CxEclipseWebService [(null)] – [EclipseWebService] Original Eclipse EndPoint located at =>http://174.129.243.209:80/CxWebInterface/Eclipse/CxEclipseWebService.asmx
+2013-12-10 21:00:36,690 [8] DEBUG Checkmarx712Eclipse.CxEclipseWebService [(null)] – [EclipseWebService]- Inside VerifySupportedVersion
+2013-12-10 21:04:13,419 [10] DEBUG Checkmarx712Eclipse.CxEclipseWebService [(null)] – [EclipseWebService] Original Eclipse EndPoint located at =>http://174.129.243.209:80/CxWebInterface/Eclipse/CxEclipseWebService.asmx
+2013-12-10 21:04:13,420 [10] DEBUG Checkmarx712Eclipse.CxEclipseWebService [(null)] – [EclipseWebService] Inside Login
+2013-12-11 08:16:33,129 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-11 08:16:33,172 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-11 08:18:47,207 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Registering Routes
+2013-12-11 08:18:47,246 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Reading Configuration file....
+2013-12-11 08:19:11,747 [1] DEBUG TeamMentor.Checkmarx.RouteConfig [(null)] – Routes registered succesfully
