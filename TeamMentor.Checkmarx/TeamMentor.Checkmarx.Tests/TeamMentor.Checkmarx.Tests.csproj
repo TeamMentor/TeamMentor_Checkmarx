@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Configuration, Version=7.4.3.0, Culture=neutral, PublicKeyToken=3dae460033b8d8e2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Typemock\Isolator\7.4\Configuration.dll</HintPath>
+    </Reference>
     <Reference Include="FluentSharp.CoreLib, Version=5.3.0.0, Culture=neutral, PublicKeyToken=55a0f9bf4256d533, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\FluentSharp.CoreLib.5.3.121\lib\net35\FluentSharp.CoreLib.dll</HintPath>
@@ -55,7 +59,6 @@
     <Reference Include="System.Web.Abstractions" />
     <Reference Include="System.Web.Routing" />
     <Reference Include="System.Web.Services" />
-    <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
@@ -101,11 +104,9 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
-    <Reference Include="TypeMock, Version=7.4.2.0, Culture=neutral, PublicKeyToken=3dae460033b8d8e2, processorArchitecture=MSIL">
-      <HintPath>C:\Program Files (x86)\Typemock\Isolator\7.4\AAA\TypeMock.dll</HintPath>
-    </Reference>
-    <Reference Include="TypeMock.ArrangeActAssert, Version=7.4.2.0, Culture=neutral, PublicKeyToken=3dae460033b8d8e2, processorArchitecture=MSIL">
-      <HintPath>C:\Program Files (x86)\Typemock\Isolator\7.4\AAA\TypeMock.ArrangeActAssert.dll</HintPath>
+    <Reference Include="TypeMock, Version=7.4.3.0, Culture=neutral, PublicKeyToken=3dae460033b8d8e2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Typemock\Isolator\7.4\TypeMock.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

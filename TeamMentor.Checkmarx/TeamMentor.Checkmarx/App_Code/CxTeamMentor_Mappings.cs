@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text;
 using System.Xml.Serialization;
 using log4net;
 using log4net.Config;
@@ -13,7 +14,7 @@ public class CxTeamMentor_Mappings
 {
     #region static variables 
     public static Dictionary<int, string> Tm_QueryId_Mappings { get; set; }
-    public static string HtmlRedirectTemplate { get; set; }
+    public static StringBuilder HtmlRedirectTemplate { get; set; }
     private static ILog log = LogManager.GetLogger(typeof (CxTeamMentor_Mappings));
     private static CXConfiguration config;
     #endregion
@@ -45,8 +46,23 @@ public class CxTeamMentor_Mappings
         var teamMentorLibrary = config.secretData_Load().TeamMentor_Vulnerabilities_Server_URL;
         log.Debug(String.Format("Using TeamMentor Vulnerability library located at " + teamMentorLibrary));
 
-        HtmlRedirectTemplate = "<html><head><meta http-equiv=\"refresh\" content=\"0;" +
-                               "url=" + teamMentorLibrary + "/article/{0}\"></head></html>";
+        /*HtmlRedirectTemplate = "<html><head><meta http-equiv=\"refresh\" content=\"0;" +
+                               "url=" + teamMentorLibrary + "/article/{0}\"></head></html>";*/
+        HtmlRedirectTemplate = new StringBuilder();
+        HtmlRedirectTemplate.AppendLine("<!DOCTYPE HTML>");
+        HtmlRedirectTemplate.AppendLine("<html lang=\"en-US\">");
+        HtmlRedirectTemplate.AppendLine("    <head>");
+        HtmlRedirectTemplate.AppendLine("        <script type=\"text/javascript\">");
+        HtmlRedirectTemplate.AppendLine("			<!-- saved from url=(0014)about:internet -->");
+        HtmlRedirectTemplate.AppendLine("			<!-- saved from url=(0016)http://localhost -->");
+        HtmlRedirectTemplate.AppendLine("          window.location.href =\"" + teamMentorLibrary + "/article/{0}\"");
+        HtmlRedirectTemplate.AppendLine("        </script>");
+        HtmlRedirectTemplate.AppendLine("        <title>Redirecting to TeamMentor</title>");
+        HtmlRedirectTemplate.AppendLine("    </head>");
+        HtmlRedirectTemplate.AppendLine("    <body>");
+        HtmlRedirectTemplate.AppendLine("      ");
+        HtmlRedirectTemplate.AppendLine("    </body>");
+        HtmlRedirectTemplate.AppendLine("</html>");
 
         //var file = HostingEnvironment.MapPath(@"/App_Code/CheckMarxMapping.xml");
         string file;

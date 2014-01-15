@@ -2621,6 +2621,7 @@
 		<col key="yes" def="s72">ISProductConfiguration_</col>
 		<col key="yes" def="s72">Name</col>
 		<col def="s0">Value</col>
+		<row><td>SingleImage</td><td>Express</td><td>KeepUnusedDirectories</td><td>1</td></row>
 	</table>
 
 	<table name="ISReleasePublishInfo">
@@ -2807,7 +2808,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>Security Innovation</td><td>0</td><td/><td>-1641982361</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>Security Innovation</td><td>0</td><td/><td>1352855016</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>1579235434</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>1579235434</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION40CLIENT</td><td>1033</td><td>Microsoft .NET Framework 4.0 Client Package or greater needs to be installed for this installation to continue.</td><td>0</td><td/><td>279061511</td></row>
@@ -3911,8 +3912,8 @@
 		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>1033</td><td>The processor is not adequate for running [ProductName].</td><td>0</td><td/><td>1579235434</td></row>
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>1579235434</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>1579235434</td></row>
-		<row><td>ID_STRING1</td><td>1033</td><td>http://www.SecurityInnovation.com</td><td>0</td><td/><td>-1641982361</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>Security Innovation</td><td>0</td><td/><td>-1641982361</td></row>
+		<row><td>ID_STRING1</td><td>1033</td><td>http://www.SecurityInnovation.com</td><td>0</td><td/><td>1352855016</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>Security Innovation</td><td>0</td><td/><td>1352855016</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td>TeamMentorCheckmarx</td><td>0</td><td/><td>1579244426</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>TeamMentorCheckmarx</td><td>0</td><td/><td>-2044657403</td></row>
 		<row><td>ID_STRING5</td><td>1033</td><td>TeamMentor</td><td>0</td><td/><td>1847703243</td></row>
@@ -4161,7 +4162,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{C5180FFF-183E-42A6-A6AC-FD7C0ABFCB0B}</td></row>
 		<row><td>ISUSSignature</td><td>{37D65592-8F5F-4D47-863D-AD405E0F5890}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewVRoots,viewISToday,viewFeatureFiles,viewRelease,viewAppFiles,viewSystemSearch,viewInstallScriptStd,viewCustomActions,viewSupportFiles,viewDependencies,viewComponentServices,viewProject,viewDesignPatches</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewVRoots,viewISToday,viewFeatureFiles,viewRelease,viewAppFiles,viewSystemSearch,viewInstallScriptStd,viewCustomActions,viewSupportFiles,viewDependencies,viewComponentServices,viewProject,viewDesignPatches,viewObjects</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>

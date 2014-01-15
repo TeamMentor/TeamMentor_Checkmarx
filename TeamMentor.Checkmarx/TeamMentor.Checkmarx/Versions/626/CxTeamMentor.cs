@@ -85,7 +85,7 @@ namespace Checkmarx626
                 cxWsResponseQueryDescription.QueryDescription =
                     !CxTeamMentor_Mappings.Tm_QueryId_Mappings.ContainsKey(cweId)
                         ? String.Format("The TeamMentor article with Id {0} could not be found", cweId)
-                        : String.Format(CxTeamMentor_Mappings.HtmlRedirectTemplate,
+                        : String.Format(CxTeamMentor_Mappings.HtmlRedirectTemplate.ToString(),
                             CxTeamMentor_Mappings.Tm_QueryId_Mappings[cweId]);
             }
 
