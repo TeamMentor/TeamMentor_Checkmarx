@@ -35,3 +35,42 @@ C:\TeamMentor\AllVersions\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\De
 C:\TeamMentor\AllVersions\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\obj\Debug\TeamMentor.Checkmarx.Tests.csprojResolveAssemblyReference.cache
 C:\TeamMentor\AllVersions\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\obj\Debug\TeamMentor.Checkmarx.Tests.dll
 C:\TeamMentor\AllVersions\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\obj\Debug\TeamMentor.Checkmarx.Tests.pdb
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\App_Data\CheckMarxMapping.xml
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\App_Data\CheckMarxConfig.config
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\TeamMentor.Checkmarx.Tests.dll.config
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\TeamMentor.Checkmarx.Tests.dll
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\TeamMentor.Checkmarx.Tests.pdb
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\Configuration.dll
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\FluentSharp.CoreLib.dll
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\nunit.framework.dll
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\System.Web.Helpers.dll
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\System.Web.Http.dll
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\System.Web.Mvc.dll
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\System.Web.Razor.dll
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\System.Web.WebPages.dll
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\TeamMentor.Checkmarx.dll
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\TypeMock.dll
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\log4net.dll
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\TeamMentor.Checkmarx.pdb
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\nunit.framework.xml
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\System.Web.Helpers.xml
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\System.Web.Http.xml
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\System.Web.Mvc.xml
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\System.Web.Razor.xml
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\System.Web.WebPages.xml
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\TypeMock.xml
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\bin\Debug\log4net.xml
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\obj\Debug\TeamMentor.Checkmarx.Tests.csprojResolveAssemblyReference.cache
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\obj\Debug\TeamMentor.Checkmarx.Tests.dll
+C:\TeamMentor\CheckMarx All Versions\TeamMentor_Checkmarx\TeamMentor.Checkmarx\TeamMentor.Checkmarx.Tests\obj\Debug\TeamMentor.Checkmarx.Tests.pdb
