@@ -32,6 +32,76 @@ public class CxPortalWebService
 
 	}
 	[WebMethod()]
+	public CxWSBasicRepsonse UpdateCompanyProperties(string sessionID, string companyID, string companyName, int maxReviewers, int maxScanners, int maxManagers)
+	{
+	    log.Debug("[PortalWebService] Inside UpdateCompanyProperties");
+		CxWSBasicRepsonse result = _web_Service.UpdateCompanyProperties(sessionID, companyID, companyName, maxReviewers, maxScanners, maxManagers);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSBasicRepsonse SetSystemSettings(string sessionID, SystemSettings settings)
+	{
+	    log.Debug("[PortalWebService] Inside SetSystemSettings");
+		CxWSBasicRepsonse result = _web_Service.SetSystemSettings(sessionID, settings);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponseSystemLanguages GetServerLanguageList(string sessionID)
+	{
+	    log.Debug("[PortalWebService] Inside GetServerLanguageList");
+		CxWSResponseSystemLanguages result = _web_Service.GetServerLanguageList(sessionID);
+		return result;
+	}
+	[WebMethod()]
+	public CxWsResponseSystemSettings GetSystemSettings(string sessionID)
+	{
+	    log.Debug("[PortalWebService] Inside GetSystemSettings");
+		CxWsResponseSystemSettings result = _web_Service.GetSystemSettings(sessionID);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSBasicRepsonse VerifySupportedVersion(CxClientType clientType, string clientVersion, string APIVersion)
+	{
+	    log.Debug("[PortalWebService] Inside VerifySupportedVersion");
+		CxWSBasicRepsonse result = _web_Service.VerifySupportedVersion(clientType, clientVersion, APIVersion);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponseInstallationSettings GetInstallationSettings(string sessionID)
+	{   
+	    log.Debug("[PortalWebService] Inside GetInstallationSettings");
+		CxWSResponseInstallationSettings result = _web_Service.GetInstallationSettings(sessionID);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponsePresetList GetPresetList(string SessionID)
+	{
+	log.Debug("[PortalWebService] Inside GetPresetList");
+		CxWSResponsePresetList result = _web_Service.GetPresetList(SessionID);
+		return result;
+	}
+	[WebMethod()]
+	public CxQueryCollectionResponse GetQueryCollection(string sessionId)
+	{
+	    log.Debug("[PortalWebService] Inside GetQueryCollection");
+		CxQueryCollectionResponse result = _web_Service.GetQueryCollection(sessionId);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponsePresetDetails GetPresetDetails(string sessionId, long id)
+	{
+	    log.Debug("[PortalWebService] Inside GetPresetDetails");
+		CxWSResponsePresetDetails result = _web_Service.GetPresetDetails(sessionId, id);
+		return result;
+	}
+	[WebMethod()]
+	public CxWSResponsePresetDetails CreateNewPreset(string sessionId, CxPresetDetails presrt)
+	{
+	    log.Debug("[PortalWebService] Inside CreateNewPreset");
+		CxWSResponsePresetDetails result = _web_Service.CreateNewPreset(sessionId, presrt);
+		return result;
+	}
+	[WebMethod()]
 	public CxWSResponsePresetDetails UpdatePreset(string sessionId, CxPresetDetails presrt)
 	{
 	    log.Debug("[PortalWebService] Inside UpdatePreset");
@@ -55,7 +125,7 @@ public class CxPortalWebService
 	[WebMethod()]
 	public CxWSResponceQuerisForScan GetQueriesForScan(string sessionID, long scanId)
 	{
-        log.Debug("[PortalWebService] Inside GetQueriesForScan");
+		log.Debug("[PortalWebService] Inside GetQueriesForScan");
 		CxWSResponceQuerisForScan result = _web_Service.GetQueriesForScan(sessionID, scanId);
         if (result != null && result.Queries != null)
         {
@@ -66,7 +136,7 @@ public class CxPortalWebService
 	[WebMethod()]
 	public CxWSResponceQuerisForScanAndId GetQueriesForScanByRunId(string sessionID, string runId)
 	{
-        log.Debug("[CxPortalWebService]- Inside GetQueriesForScanByRunId");
+		log.Debug("[CxPortalWebService]- Inside GetQueriesForScanByRunId");
 		CxWSResponceQuerisForScanAndId result = _web_Service.GetQueriesForScanByRunId(sessionID, runId);
         if (result != null && result.Queries != null)
         {
@@ -410,7 +480,7 @@ byte[] importedFile)
 	[WebMethod()]
 	public CxQueryCollectionResponse GetQueryCollectionForLanguage(string sessionId, int projectType, long projectId)
 	{
-        log.Debug("[CxPortalWebService]- Inside GetQueryCollectionForLanguage");
+		log.Debug("[CxPortalWebService]- Inside GetQueryCollectionForLanguage");
 		CxQueryCollectionResponse result = _web_Service.GetQueryCollectionForLanguage(sessionId, projectType, projectId);
         new CxTeamMentor().TMFilterFor_CxQueryCollectionResponse(result);
 		return result;
@@ -440,7 +510,7 @@ byte[] importedFile)
 	[WebMethod()]
 	public CxWSResponseResultCollection GetResults(string sessionId, long scanId)
 	{
-        log.Debug("[CxPortalWebService]- Inside GetResults");
+		log.Debug("[CxPortalWebService]- Inside GetResults");
 		CxWSResponseResultCollection result = _web_Service.GetResults(sessionId, scanId);
         new CxTeamMentor().TMFilterFor_CxWSResponseResultCollection(result);
 		return result;
@@ -868,7 +938,7 @@ byte[] importedFile)
 	[WebMethod()]
 	public CxWSResponseScanResults GetScanXMLReportByRunId(string sessionID, string runId)
 	{
-        log.Debug("[CxPortalWebService]- Inside GetScanXMLReportByRunId");
+		log.Debug("[CxPortalWebService]- Inside GetScanXMLReportByRunId");
 		CxWSResponseScanResults result = _web_Service.GetScanXMLReportByRunId(sessionID, runId);
         if (result.ScanResults != null)
         {
@@ -907,7 +977,7 @@ byte[] importedFile)
 	[WebMethod()]
 	public CxWSResponseQueryDescription GetQueryDescription(string sessionId, int cweId)
 	{
-        log.Debug("[CxPortalWebService]- Inside GetQueryDescription");
+		log.Debug("[CxPortalWebService]- Inside GetQueryDescription");
 		CxWSResponseQueryDescription result = _web_Service.GetQueryDescription(sessionId, cweId);
 		result.IsSuccesfull = true;
         result.ErrorMessage = string.Empty;
@@ -1290,76 +1360,6 @@ byte[] importedFile)
 	{
         log.Debug("[CxPortalWebService]- Inside IsValidServiceProviderName");
 		CxWSBasicRepsonse result = _web_Service.IsValidServiceProviderName(sessionID, serviceProviderName);
-		return result;
-	}
-	[WebMethod()]
-	public CxWSBasicRepsonse UpdateCompanyProperties(string sessionID, string companyID, string companyName, int maxReviewers, int maxScanners, int maxManagers)
-	{
-        log.Debug("[CxPortalWebService]- Inside UpdateCompanyProperties");
-		CxWSBasicRepsonse result = _web_Service.UpdateCompanyProperties(sessionID, companyID, companyName, maxReviewers, maxScanners, maxManagers);
-		return result;
-	}
-	[WebMethod()]
-	public CxWSBasicRepsonse SetSystemSettings(string sessionID, SystemSettings settings)
-	{
-        log.Debug("[CxPortalWebService]- Inside SetSystemSettings");
-		CxWSBasicRepsonse result = _web_Service.SetSystemSettings(sessionID, settings);
-		return result;
-	}
-	[WebMethod()]
-	public CxWSResponseSystemLanguages GetServerLanguageList(string sessionID)
-	{
-        log.Debug("[CxPortalWebService]- Inside GetServerLanguageList");
-		CxWSResponseSystemLanguages result = _web_Service.GetServerLanguageList(sessionID);
-		return result;
-	}
-	[WebMethod()]
-	public CxWsResponseSystemSettings GetSystemSettings(string sessionID)
-	{
-        log.Debug("[CxPortalWebService]- Inside GetSystemSettings");
-		CxWsResponseSystemSettings result = _web_Service.GetSystemSettings(sessionID);
-		return result;
-	}
-	[WebMethod()]
-	public CxWSBasicRepsonse VerifySupportedVersion(CxClientType clientType, string clientVersion, string APIVersion)
-	{
-        log.Debug("[CxPortalWebService]- Inside VerifySupportedVersion");
-		CxWSBasicRepsonse result = _web_Service.VerifySupportedVersion(clientType, clientVersion, APIVersion);
-		return result;
-	}
-	[WebMethod()]
-	public CxWSResponseInstallationSettings GetInstallationSettings(string sessionID)
-	{
-        log.Debug("[CxPortalWebService]- Inside GetInstallationSettings");
-		CxWSResponseInstallationSettings result = _web_Service.GetInstallationSettings(sessionID);
-		return result;
-	}
-	[WebMethod()]
-	public CxWSResponsePresetList GetPresetList(string SessionID)
-	{
-        log.Debug("[CxPortalWebService]- Inside GetPresetList");
-		CxWSResponsePresetList result = _web_Service.GetPresetList(SessionID);
-		return result;
-	}
-	[WebMethod()]
-	public CxQueryCollectionResponse GetQueryCollection(string sessionId)
-	{
-        log.Debug("[CxPortalWebService]- Inside GetQueryCollection");
-		CxQueryCollectionResponse result = _web_Service.GetQueryCollection(sessionId);
-		return result;
-	}
-	[WebMethod()]
-	public CxWSResponsePresetDetails GetPresetDetails(string sessionId, long id)
-	{
-        log.Debug("[CxPortalWebService]- Inside GetPresetDetails");
-		CxWSResponsePresetDetails result = _web_Service.GetPresetDetails(sessionId, id);
-		return result;
-	}
-	[WebMethod()]
-	public CxWSResponsePresetDetails CreateNewPreset(string sessionId, CxPresetDetails presrt)
-	{
-        log.Debug("[CxPortalWebService]- Inside CreateNewPreset");
-		CxWSResponsePresetDetails result = _web_Service.CreateNewPreset(sessionId, presrt);
 		return result;
 	}
 }

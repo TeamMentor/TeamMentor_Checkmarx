@@ -161,7 +161,9 @@
     <Content Include="Versions\7\712\Eclipse\CxEclipseWebService.asmx" />
     <Content Include="Versions\7\712\VS\CxVSWebService.asmx" />
     <Content Include="Versions\7\712\Web\CxWebService.asmx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
